@@ -1,0 +1,28 @@
+{
+  "candidate": "submission_benchmark75_fullpair25.csv",
+  "benchmark_public_score": 0.9793,
+  "weights": {
+    "previous_0.9793_ensemble": 0.75,
+    "full_data_control_128_flip_tta": 0.125,
+    "full_data_geometry_128_clean": 0.125
+  },
+  "weight_selection": "A conservative prespecified trial; no independent validation score exists for full-data components.",
+  "validation_score": null,
+  "new_public_score": 0.9801,
+  "full_data_images_per_new_model": 63645,
+  "epochs_per_new_model": 7,
+  "test_rows": 29443,
+  "test_predictions_changed_vs_benchmark": 86,
+  "submission_sha256": "014334cbc0acebecd78ce44de51460afaee4f0a317b91897a11b5257f9fd1181",
+  "checks": [
+    "ZIP CRC integrity",
+    "all 63645 labelled images match original clean metadata",
+    "full-data provenance and seven-epoch histories",
+    "class order and exact sample-submission ID order",
+    "finite nonnegative normalised probability arrays",
+    "CSV round-trip and exact correspondence to blend argmax"
+  ],
+  "public_leaderboard_rank_at_observation": 4,
+  "public_result_observed_date": "2026-10-21",
+  "public_score_evidence": "User-provided Kaggle leaderboard screenshot at 03:50 Pacific/Auckland."
+}

@@ -1,0 +1,5 @@
+view,control_errors,candidate_errors,fixed,broken
+clean,26,33,14,21
+wide,122,82,73,33
+tall,1084,68,1033,17
+tta,26,29,12,15

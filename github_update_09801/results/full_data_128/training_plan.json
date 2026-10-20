@@ -1,0 +1,12 @@
+{
+  "training_images": 63645,
+  "epochs": 7,
+  "training_seed": 42,
+  "experiments": [
+    "control_128",
+    "geometry_128"
+  ],
+  "epoch_budget_reason": "Validation-selected epochs were 6 and 7 across the two splits.",
+  "validation_metrics_available": false,
+  "benchmark_public_score": 0.9793
+}

@@ -1,0 +1,12 @@
+# Append appropriate entries to your existing .gitignore; do not replace it blindly.
+*.pth
+*.pt
+*.npz
+*.npy
+*.zip
+.env
+.env.*
+.ipynb_checkpoints/
+__pycache__/
+submission*.csv
+# Add your actual local competition-data folder if stored inside the repository.
