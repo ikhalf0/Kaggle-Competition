@@ -1,0 +1,17 @@
+{
+  "selected": "original_plus_geometry_clean_w0.5",
+  "geometry_weight": 0.5,
+  "geometry_view": "clean",
+  "original_weights": {
+    "convnext_t_128": 0.4,
+    "convnext_t_224": 0.4,
+    "effnetv2_s_128": 0.2
+  },
+  "split_hash": "4714f587e29d5c52f8d57346771d7d65bd72bbdaf36ddf21ca7260bb756524ad",
+  "validation": {
+    "errors": 17,
+    "accuracy": 0.998219335917042,
+    "nll": 0.09973899275064468
+  },
+  "test_predictions_changed_vs_original": 276
+}

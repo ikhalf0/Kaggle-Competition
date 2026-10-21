@@ -1,0 +1,42 @@
+{
+  "epochs": 8,
+  "lr": 0.0003,
+  "weight_decay": 0.05,
+  "label_smoothing": 0.1,
+  "downscale_p": 0.3,
+  "model": "convnext_tiny",
+  "size": 128,
+  "geometry": false,
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "split_seed": 1337,
+  "train_seed": 42,
+  "full_data": false,
+  "classes": [
+    "CatEye",
+    "CatFace",
+    "CatMouth",
+    "CatNose",
+    "DogEye",
+    "DogFace",
+    "DogMouth",
+    "DogNose"
+  ],
+  "label_sha256": "94124e856786379a9c1e9c8c7ba4599a9f27fe8dc6ea4165dc4afc55024d41a3",
+  "split_hash": "842af9ee7beb6fe8c85fd55163deeb15cf8a5c778506c075f987e9b9ed9889b6",
+  "versions": {
+    "python": "3.13.15",
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "timm": "1.0.29"
+  },
+  "actual_epochs": 8
+}

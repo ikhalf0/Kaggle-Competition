@@ -1,0 +1,7 @@
+setup,val_acc,errors,val_logloss
+ConvNeXt 128,0.99675,31,0.10004
+ConvNeXt 224,0.99644,34,0.10163
+EffNetV2-S 128,0.99487,49,0.11185
+ConvNeXt 128+224 (Kaggle 0.9783),0.99717,27,0.09982
+"All 3, equal weights",0.99738,25,0.1022
+"All 3, EffNet half weight",0.99749,24,0.101

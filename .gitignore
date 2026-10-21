@@ -1,0 +1,21 @@
+# Private competition images and large run artifacts
+/data/
+/models/
+/private_artifacts/
+/checkpoints/
+*.pth
+*.pt
+*.npz
+*.npy
+*.zip
+submission*.csv
+*_submission*.csv
+
+# Credentials and local files
+.env
+.env.*
+!.env.example
+*token*.txt
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/

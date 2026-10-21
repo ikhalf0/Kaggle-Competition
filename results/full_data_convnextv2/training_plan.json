@@ -1,0 +1,17 @@
+{
+  "model": "convnextv2_tiny.fcmae_ft_in1k",
+  "input_size": 192,
+  "geometry": true,
+  "epochs": 7,
+  "batch_size": 64,
+  "training_seed": 42,
+  "training_images": 63645,
+  "label_sha256": "94124e856786379a9c1e9c8c7ba4599a9f27fe8dc6ea4165dc4afc55024d41a3",
+  "cached_metadata_sha256": "26e27a97a6be1827aa21dfb99cd7191de8038b42303acf87d9568d46cb25bd50",
+  "initialization": "Same public pretrained weights; not the earlier fine-tuned checkpoint.",
+  "epoch_budget_reason": "The earlier held-out V2 run selected epoch 7.",
+  "validation_metrics_available": false,
+  "benchmark_public_score_at_creation": 0.9806,
+  "cache_source": "/kaggle/input/datasets/khlafalshammari/08-training/full_training_metadata.csv",
+  "model_reference": "https://huggingface.co/timm/convnextv2_tiny.fcmae_ft_in1k"
+}
