@@ -1,0 +1,58 @@
+{
+  "candidate": "full_v2_replacement25",
+  "file": "submission_base75_fullv2tta25.csv",
+  "formula": "75% previous 0.9801 ensemble + 25% full-data V2 TTA",
+  "priority": "Submitted: 0.9797; existing best remains 0.9806",
+  "comparison_best_public_score": 0.9806,
+  "base_public_score": 0.9801,
+  "new_public_score": 0.9797,
+  "submitted": true,
+  "independent_full_blend_validation_score": null,
+  "effective_component_weights": {
+    "original_convnext128_tta": 0.1125,
+    "original_convnext224_tta": 0.1125,
+    "original_effnetv2s128_tta": 0.05625,
+    "split42_geometry128_clean": 0.28125,
+    "full_control128_tta": 0.09375,
+    "full_geometry128_clean": 0.09375,
+    "full_convnextv2_192_tta": 0.25
+  },
+  "rows": 29443,
+  "columns": [
+    "image_id",
+    "class"
+  ],
+  "changed_predictions_vs_best": 116,
+  "submission_sha256": "09aaa195bc73104840e6df37d21d5ab83618416e3b1761e4550c45a8cf69399f",
+  "new_checkpoint_sha256": "d3ba443ba2c6675007507c17b76b42b8b171d2d73ab16d2a2dbdfd85331a4d5c",
+  "new_archive_sha256": "4b6f1a4e23417915437181d947ecc1f5f1cf148ada4a3963665d1e8792c91166",
+  "sources": {
+    "base_probability_file": "assignment3_full_data_review/benchmark75_fullpair25_test.npz",
+    "base_sha256": "4a43e40bbf8ab554bbb772dc998a917f3bd58626ea5e13fbb727a056b5cb0e6e",
+    "old_v2_probability_file": "assignment3_convnextv2_review/convnextv2_tiny_192_geometry_val1337_seed42/test_tta.npz",
+    "old_v2_sha256": "c7b11b7181ff321e4f2d25e9d82288dc05a71b8d102a425385bc7eb415b572c9",
+    "new_v2_probability_file": "convnextv2_tiny_192_geometry_full_seed42/test_tta.npz",
+    "new_v2_sha256": "2da44fe718ca414f6cdf270e726089c3f89d780368c38ac64b02d287691bc2b6"
+  },
+  "checks": [
+    "archive CRC passed at intake",
+    "checkpoint and prediction fingerprints match Kaggle manifest",
+    "all 63645 training metadata rows match prior full-data experiment",
+    "same V2 architecture, resolution, augmentation, normalization, batch, optimizer and seed",
+    "seven-epoch full-data history, no fabricated validation metrics",
+    "exact sample IDs and class order",
+    "finite normalized probabilities",
+    "independent component reconstruction",
+    "float32/float64 argmax agreement",
+    "CSV exported and read back"
+  ],
+  "limitations": [
+    "No hidden test labels are available; changed predictions are not known corrections.",
+    "The full-data V2 checkpoint has no honest independent validation score.",
+    "The full refit has a seven-epoch LR schedule; the earlier split run selected epoch 7 of an eight-epoch schedule.",
+    "Checkpoint contents were fingerprinted, not deserialized for local GPU inference."
+  ],
+  "public_score_observed_local": "2026-10-21 21:50 Pacific/Auckland",
+  "public_score_evidence": "results/evidence/public_full_v2_replacement_09797_2026-10-21.png",
+  "interpretation": "This specific full-data replacement did not improve the displayed public score. It does not establish the score of an old/new V2 blend."
+}

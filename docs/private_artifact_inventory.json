@@ -1,0 +1,79 @@
+{
+  "winning_components": [
+    {
+      "component": "original_convnext128_tta",
+      "effective_weight": 0.1125,
+      "checkpoint_filename_or_member": "best_convnext_t_128.pth",
+      "private_backup_archive": null,
+      "checkpoint_bytes": 111375879,
+      "checkpoint_presence_checked": true,
+      "private_review_probability_path": "assignment3_ensemble_review/old_convnext_t_128_test_tta.npz",
+      "probability_file_presence_checked": true
+    },
+    {
+      "component": "original_convnext224_tta",
+      "effective_weight": 0.1125,
+      "checkpoint_filename_or_member": "best_convnext_t_224.pth",
+      "private_backup_archive": null,
+      "checkpoint_bytes": 111377571,
+      "checkpoint_presence_checked": true,
+      "private_review_probability_path": "assignment3_ensemble_review/old_convnext_t_224_test_tta.npz",
+      "probability_file_presence_checked": true
+    },
+    {
+      "component": "original_effnetv2s128_tta",
+      "effective_weight": 0.05625,
+      "checkpoint_filename_or_member": "best_effnetv2_s_128.pth",
+      "private_backup_archive": null,
+      "checkpoint_bytes": 81651987,
+      "checkpoint_presence_checked": true,
+      "private_review_probability_path": "assignment3_ensemble_review/old_effnetv2_s_128_test_tta.npz",
+      "probability_file_presence_checked": true
+    },
+    {
+      "component": "split42_geometry128_clean",
+      "effective_weight": 0.28125,
+      "checkpoint_filename_or_member": "controlled_experiments/geometry_128_val42_seed42/best.pth",
+      "private_backup_archive": "controlled_experiments_backup.zip",
+      "checkpoint_bytes": 111364255,
+      "checkpoint_presence_checked": true,
+      "private_review_probability_path": "assignment3_results/geometry_128_val42_seed42/test_clean.npz",
+      "probability_file_presence_checked": true
+    },
+    {
+      "component": "full_control128_tta",
+      "effective_weight": 0.09375,
+      "checkpoint_filename_or_member": "full_data_pair_128/control_128_full_seed42/best.pth",
+      "private_backup_archive": "full_data_pair_128_backup.zip",
+      "checkpoint_bytes": 111364127,
+      "checkpoint_presence_checked": true,
+      "private_review_probability_path": "assignment3_full_data_review/control_128_full_seed42/test_tta.npz",
+      "probability_file_presence_checked": true
+    },
+    {
+      "component": "full_geometry128_clean",
+      "effective_weight": 0.09375,
+      "checkpoint_filename_or_member": "full_data_pair_128/geometry_128_full_seed42/best.pth",
+      "private_backup_archive": "full_data_pair_128_backup.zip",
+      "checkpoint_bytes": 111364127,
+      "checkpoint_presence_checked": true,
+      "private_review_probability_path": "assignment3_full_data_review/geometry_128_full_seed42/test_clean.npz",
+      "probability_file_presence_checked": true
+    },
+    {
+      "component": "split1337_convnextv2_192_tta",
+      "effective_weight": 0.25,
+      "checkpoint_filename_or_member": "convnextv2_192_validation/convnextv2_tiny_192_geometry_val1337_seed42/best.pth",
+      "private_backup_archive": "convnextv2_192_validation_backup.zip",
+      "checkpoint_bytes": 111554437,
+      "checkpoint_presence_checked": true,
+      "private_review_probability_path": "assignment3_convnextv2_review/convnextv2_tiny_192_geometry_val1337_seed42/test_tta.npz",
+      "probability_file_presence_checked": true
+    }
+  ],
+  "checkpoint_count": 7,
+  "all_checkpoint_and_probability_files_accounted_for": true,
+  "verification_scope": "Fresh file/ZIP-directory presence and size check. Checkpoints were not deserialized and no training or GPU inference was rerun. Earlier intake checks retain archive integrity and prediction provenance evidence.",
+  "large_artifacts_committed": false,
+  "winning_submission_committed": true
+}

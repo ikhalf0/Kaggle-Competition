@@ -26,7 +26,7 @@ The exact effective weights are recorded in `results/best_ensemble/recipe.json`:
 
 Average class probabilities with those weights before choosing the highest-probability class. TTA means the mean of original-image and horizontal-flip probabilities. Preserve the eight-class order and the sample-submission image-ID order; do not blend class-label CSVs as though they were probabilities. Validate finite probabilities and row sums and export exactly 29,443 unique image IDs with columns `image_id,class`.
 
-The winning CSV SHA256 is `8d255cfb971b031801ac95e8600fdada6eb0d51190b993e472b305d148639d23`. A consolidated command that loads all seven checkpoints and exports this CSV remains a separate reproducibility task; this repository reorganisation preserves the experiment sources and exact recipe without claiming that command already exists.
+The selected final CSV is committed at `results/best_ensemble/submission_best75_convnextv2_tta25.csv`. Its SHA256 is `8d255cfb971b031801ac95e8600fdada6eb0d51190b993e472b305d148639d23`. The locations of all seven private winning checkpoint and probability files are recorded in `docs/private_artifact_inventory.json`. A consolidated command that loads all seven checkpoints and exports this CSV remains a separate reproducibility task; this repository reorganisation preserves the experiment sources and exact recipe without claiming that command already exists.
 
 ## Interpreting metrics
 

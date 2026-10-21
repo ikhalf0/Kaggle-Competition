@@ -1,0 +1,16 @@
+{
+  "candidate": "submission_fullpair50.csv",
+  "baseline_public_score": 0.9801,
+  "weights": {
+    "previous_0.9793_ensemble": 0.5,
+    "full_data_control_flip_tta": 0.25,
+    "full_data_geometry_clean": 0.25
+  },
+  "single_change": "Increase combined full-data-pair weight from 0.25 to 0.50; keep their internal weights equal and inference views unchanged.",
+  "independent_validation_score": null,
+  "public_score": 0.9798,
+  "selection_basis": "Prespecified coarse weight trial following a public-score improvement from 0.9793 to 0.9801 at full-data-pair weight 0.25. Not selected using hidden test labels.",
+  "test_predictions_changed_vs_0_9801": 76,
+  "submission_sha256": "835b7d5ed811dbe808c88b9ec40524106125288df82f6f379fa15ac3b61f3e08",
+  "score_observation_date": "2026-10-21"
+}

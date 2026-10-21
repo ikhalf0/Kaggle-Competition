@@ -19,3 +19,6 @@ submission*.csv
 .DS_Store
 __pycache__/
 .ipynb_checkpoints/
+
+# Retain the selected prediction CSV in this private assessment repository
+!results/best_ensemble/submission_best75_convnextv2_tta25.csv
