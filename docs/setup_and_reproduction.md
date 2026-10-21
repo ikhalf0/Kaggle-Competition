@@ -10,7 +10,7 @@ Attach the original competition dataset containing `train_labels.csv`, `sample_s
 
 The original ensemble requires `best_convnext_t_128.pth`, `best_convnext_t_224.pth` and `best_effnetv2_s_128.pth`. Later notebooks also require the matching private outputs described in their opening cells. Notebook 05 specifically needs the split-42 controlled output, rather than using models trained on a different split to evaluate that holdout.
 
-Notebook 08 can reuse the cleaned metadata from the supplied training-metadata cache or supported earlier backup outputs. Its first user-added cell reads the optional Kaggle Secret `kaggle-assignment3` into `HF_TOKEN`; skip that cell if the secret is not configured. The public pretrained model does not require this token. The notebook itself contains no token value.
+Notebook 06 can reuse the cleaned metadata from the supplied training-metadata cache or supported earlier backup outputs. Its first user-added cell reads the optional Kaggle Secret `kaggle-assignment3` into `HF_TOKEN`; skip that cell if the secret is not configured. The public pretrained model does not require this token. The notebook itself contains no token value.
 
 ## Viewing results and reproducing experiments
 
@@ -18,7 +18,7 @@ All canonical notebooks retain their saved outputs. View them directly when chec
 
 To reproduce the original models, run Notebook 01 followed by the relevant 02 training notebook with its recorded seed, transforms, model and settings. Notebook 03 loads those checkpoints and averages original/flip probabilities. The winning original weights are 40% ConvNeXt 128, 40% ConvNeXt 224 and 20% EfficientNetV2-S 128. Its later shape-adjustment experiments are separate recipes.
 
-Use the controlled code in Notebook 04 and the saved configurations to reproduce the split-42 control/geometry experiment or the split-1337 confirmation. Select the intended split and output directory before starting a new training run. The full-data pair uses all 63,645 cleaned images, seven epochs and training seed 42. The split-trained V2 uses split 1337, size 192, batch 64 and eight scheduled epochs, selecting epoch 7. Notebook 08 instead trains V2 on all images with a seven-epoch schedule.
+Use the controlled code in Notebook 04 and the saved configurations to reproduce the split-42 control/geometry experiment or the split-1337 confirmation. Select the intended split and output directory before starting a new training run. The full-data pair uses all 63,645 cleaned images, seven epochs and training seed 42. The split-trained V2 uses split 1337, size 192, batch 64 and eight scheduled epochs, selecting epoch 7. Notebook 06 instead trains V2 on all images with a seven-epoch schedule.
 
 ## Winning prediction recipe
 

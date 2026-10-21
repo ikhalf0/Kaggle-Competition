@@ -103,5 +103,13 @@
     "previous_path": "github_update_09801/results/full_data_128/training_plan.json",
     "new_path": "results/full_data_128/training_plan.json",
     "git_blob_sha": "05498af3e8f80eaa7205266df731685f4fade785"
+  },
+  {
+    "previous_path": "notebooks/08-full-data-convnextv2.ipynb",
+    "new_path": "notebooks/06-full-data-convnextv2.ipynb",
+    "previous_git_blob_sha": "7bef9bcd1edf861bbe4139bb32e37dc04164c569",
+    "new_git_blob_sha": "03fdc31dddebfa13f5def7b060b50b9c11064d61",
+    "code_and_saved_outputs_unchanged": true,
+    "reason": "User requested notebook 08 be named 06."
   }
 ]

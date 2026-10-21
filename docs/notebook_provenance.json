@@ -135,10 +135,10 @@
     "fatal_error_outputs": []
   },
   {
-    "path": "notebooks/08-full-data-convnextv2.ipynb",
+    "path": "notebooks/06-full-data-convnextv2.ipynb",
     "source_filename": "08_full_data_convnextv2_2026-10-21.ipynb",
-    "sha256": "00ea13ad05c49692849a35edf786cec3f886870938e34b5d4c88683cc8686c40",
-    "git_blob_sha": "7bef9bcd1edf861bbe4139bb32e37dc04164c569",
+    "sha256": "cc3aba005f45726fd839e97df57a7f4d3e52335ea58a9ad83d5fb099856fdd1c",
+    "git_blob_sha": "03fdc31dddebfa13f5def7b060b50b9c11064d61",
     "code_cells": 6,
     "execution_counts": [
       1,
@@ -148,7 +148,10 @@
       5,
       6
     ],
-    "fatal_error_outputs": []
+    "fatal_error_outputs": [],
+    "original_source_sha256": "00ea13ad05c49692849a35edf786cec3f886870938e34b5d4c88683cc8686c40",
+    "original_source_git_blob_sha": "7bef9bcd1edf861bbe4139bb32e37dc04164c569",
+    "documentation_changes": "Renumbered notebook title and Markdown references from 08 to 06; all code cells, execution counts and saved outputs are unchanged."
   },
   {
     "path": "archive/03-two-model-ensemble-tta.ipynb",

@@ -15,9 +15,9 @@ The best confirmed public score is **0.9806**, from `submission_best75_convnextv
 | [03 Original ensemble and TTA](notebooks/03-original-ensemble-tta.ipynb) | Original three-model ensemble and separate shape-prior experiments. |
 | [04 Controlled improvement](notebooks/04-controlled-improvement.ipynb) | Executed split-1337 confirmation, full-data 128px pair and split-trained ConvNeXt V2 experiment. |
 | [05 Original plus geometry](notebooks/05-original-plus-geometry.ipynb) | Split-42 geometry blending and the intermediate 0.9793 submission. |
-| [08 Full-data ConvNeXt V2](notebooks/08-full-data-convnextv2.ipynb) | Later seven-epoch full-data V2 training and test predictions. |
+| [06 Full-data ConvNeXt V2](notebooks/06-full-data-convnextv2.ipynb) | Later seven-epoch full-data V2 training and test predictions. |
 
-Notebook numbering follows the experiment history. The full-data pair and split-trained V2 sections originally supplied as appendices 06 and 07 remain inside the executed Notebook 04. Notebook 05 is an intermediate experiment, rather than a cell dependency of the later appended sections. Historical Notebook 04 versions and the earlier two-model ensemble are preserved under [archive](archive/README.md). Original code cells and saved outputs are retained in the notebooks; this reorganisation changes their repository paths, not their experiment results.
+The full-data ConvNeXt V2 notebook is numbered 06 for the repository reading order; it was originally executed as Notebook 08. Its saved backup names and code comments retain that historical label. The full-data pair and split-trained V2 experiments remain inside the executed Notebook 04. Notebook 05 is an intermediate experiment, rather than a cell dependency of the later appended sections. Historical Notebook 04 versions and the earlier two-model ensemble are preserved under [archive](archive/README.md). Original code cells and saved outputs are retained in the notebooks; this reorganisation changes their repository paths, not their experiment results.
 
 Small configurations, histories, confusion matrices, learning curves and comparisons are under [results](results/README.md). [The report file map](docs/report_file_map.md) identifies stable paths for Tasks 1 to 6. [The setup guide](docs/setup_and_reproduction.md) describes inputs, recorded versions and reproduction limits.
 
