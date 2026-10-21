@@ -1,0 +1,115 @@
+[
+  {
+    "previous_path": "01-eda-facial-features.ipynb",
+    "new_path": "notebooks/01-eda-facial-features.ipynb",
+    "git_blob_sha": "2514bbd456701f37ed2b00f6e772e75281ba9c3d"
+  },
+  {
+    "previous_path": "02-preprocessing-and-training.ipynb",
+    "new_path": "notebooks/02a-convnext-128-training.ipynb",
+    "git_blob_sha": "f952596e2ea80cfa9a1b3ad08d5af105c38af993"
+  },
+  {
+    "previous_path": "Exp 2, 224px.ipynb",
+    "new_path": "notebooks/02b-convnext-224-training.ipynb",
+    "git_blob_sha": "9916fbe0a5727c634d342914ff34f64ec375d56d"
+  },
+  {
+    "previous_path": "03-ensemble-tta (1).ipynb",
+    "new_path": "notebooks/03-original-ensemble-tta.ipynb",
+    "git_blob_sha": "14dec5083d83d7c7c98312ca363a9571982ea46c"
+  },
+  {
+    "previous_path": "05-original-plus-geometry.ipynb",
+    "new_path": "notebooks/05-original-plus-geometry.ipynb",
+    "git_blob_sha": "a553f7995cf096fb6791fc96a9257860aaa0d707"
+  },
+  {
+    "previous_path": "03-ensemble-tta.ipynb",
+    "new_path": "archive/03-two-model-ensemble-tta.ipynb",
+    "git_blob_sha": "1685a1a6a09673473470352bc42671da3cea62e5"
+  },
+  {
+    "previous_path": "04-controlled-improvement.ipynb",
+    "new_path": "archive/04-controlled-improvement-initial.ipynb",
+    "git_blob_sha": "14fd2d850c4a1b5568c8cfb1577cc0d2a14e8943"
+  },
+  {
+    "previous_path": "github_update_09801/notebooks/04_controlled_improvement.ipynb",
+    "new_path": "archive/04-controlled-improvement-through-full-data-128.ipynb",
+    "git_blob_sha": "76cbfaabfb5db9909d665ada8296cc56271b272d"
+  },
+  {
+    "previous_path": "README.md",
+    "new_path": "archive/README-original.md",
+    "git_blob_sha": "07c7b5767dbd8e783b3f22fe7705fad964e53434"
+  },
+  {
+    "previous_path": "github_update_09801/EXPERIMENT_UPDATE.md",
+    "new_path": "archive/EXPERIMENT_UPDATE.md",
+    "git_blob_sha": "8b2aa453e0e5c635b7a43334957ef04064e98d86"
+  },
+  {
+    "previous_path": "github_update_09801/SUGGESTED_GITIGNORE.txt",
+    "new_path": "archive/SUGGESTED_GITIGNORE.txt",
+    "git_blob_sha": "da83a5068cabc1604a10c0aa0cd2ba4832432c0b"
+  },
+  {
+    "previous_path": "github_update_09801/results/confirmation_split1337/experiment_results.csv",
+    "new_path": "results/confirmation_split1337/experiment_results.csv",
+    "git_blob_sha": "c6065d4c59c1d6b994896ff05d085447580e81cc"
+  },
+  {
+    "previous_path": "github_update_09801/results/confirmation_split1337/paired_control_128_geometry_128.csv",
+    "new_path": "results/confirmation_split1337/paired_control_128_geometry_128.csv",
+    "git_blob_sha": "754c1528d456aea1602d2be7e724524f99211cb8"
+  },
+  {
+    "previous_path": "github_update_09801/results/ensemble_09801/recipe.json",
+    "new_path": "results/ensemble_09801/recipe.json",
+    "git_blob_sha": "f0cb427e05800d7dd6eb43bbebb0d63eeca36b45"
+  },
+  {
+    "previous_path": "github_update_09801/results/full_data_128/control_128/config.json",
+    "new_path": "results/full_data_128/control_128/config.json",
+    "git_blob_sha": "83687f4c19ed434abf5fe56f065ea8c622a120bd"
+  },
+  {
+    "previous_path": "github_update_09801/results/full_data_128/control_128/history.csv",
+    "new_path": "results/full_data_128/control_128/history.csv",
+    "git_blob_sha": "0c8cd6c21aaafa1dbc6d303fc9b0268e2ee01ea0"
+  },
+  {
+    "previous_path": "github_update_09801/results/full_data_128/control_128/learning_curves.png",
+    "new_path": "results/full_data_128/control_128/learning_curves.png",
+    "git_blob_sha": "f299e2a1cb5c8878ae32c4884af57b507c0b5c59"
+  },
+  {
+    "previous_path": "github_update_09801/results/full_data_128/geometry_128/config.json",
+    "new_path": "results/full_data_128/geometry_128/config.json",
+    "git_blob_sha": "a9560eedf7f3991d051754beb07f604829583fda"
+  },
+  {
+    "previous_path": "github_update_09801/results/full_data_128/geometry_128/history.csv",
+    "new_path": "results/full_data_128/geometry_128/history.csv",
+    "git_blob_sha": "2b4fd797bca8ac6466099441647c0953249461a5"
+  },
+  {
+    "previous_path": "github_update_09801/results/full_data_128/geometry_128/learning_curves.png",
+    "new_path": "results/full_data_128/geometry_128/learning_curves.png",
+    "git_blob_sha": "32a69ed9161f194b50971ae4334eb7dc99bf0142"
+  },
+  {
+    "previous_path": "github_update_09801/results/full_data_128/training_plan.json",
+    "new_path": "results/full_data_128/training_plan.json",
+    "git_blob_sha": "05498af3e8f80eaa7205266df731685f4fade785"
+  },
+  {
+    "previous_path": "notebooks/08-full-data-convnextv2.ipynb",
+    "new_path": "notebooks/06-full-data-convnextv2.ipynb",
+    "previous_git_blob_sha": "7bef9bcd1edf861bbe4139bb32e37dc04164c569",
+    "new_git_blob_sha": "03fdc31dddebfa13f5def7b060b50b9c11064d61",
+    "code_and_saved_outputs_unchanged": true,
+    "reason": "User requested notebook 08 be named 06."
+  }
+]

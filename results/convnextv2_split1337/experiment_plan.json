@@ -1,0 +1,13 @@
+{
+  "model": "convnextv2_tiny.fcmae_ft_in1k",
+  "input_size": 192,
+  "geometry": true,
+  "epochs": 8,
+  "batch_size": 64,
+  "training_seed": 42,
+  "split_seed": 1337,
+  "benchmark_public_score": 0.9801,
+  "purpose": "Validate a new candidate for model diversity before any submission.",
+  "comparison_limit": "Architecture, resolution and batch size differ; this is not an isolated architecture ablation.",
+  "model_reference": "https://huggingface.co/timm/convnextv2_tiny.fcmae_ft_in1k"
+}

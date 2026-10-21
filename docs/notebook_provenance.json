@@ -1,0 +1,170 @@
+[
+  {
+    "path": "notebooks/01-eda-facial-features.ipynb",
+    "source_filename": "01-eda-facial-features.ipynb",
+    "sha256": "9c4d54530d392cdcc124238e45723115c38b94991b51d4f47c4f219a5d02ce53",
+    "git_blob_sha": "2514bbd456701f37ed2b00f6e772e75281ba9c3d",
+    "code_cells": 9,
+    "execution_counts": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "fatal_error_outputs": []
+  },
+  {
+    "path": "notebooks/02a-convnext-128-training.ipynb",
+    "source_filename": "02-preprocessing-and-training.ipynb",
+    "sha256": "7768420e04893589ba6cf7b9684b6c493c2bdd96a3cfc41420943bc453e08c7e",
+    "git_blob_sha": "f952596e2ea80cfa9a1b3ad08d5af105c38af993",
+    "code_cells": 10,
+    "execution_counts": [
+      1,
+      2,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "fatal_error_outputs": []
+  },
+  {
+    "path": "notebooks/02b-convnext-224-training.ipynb",
+    "source_filename": "Exp 2, 224px.ipynb",
+    "sha256": "15672f73d84ab4f74c94cd7f842b4bb5b4025bab26f3df27a35aac9672d93c6a",
+    "git_blob_sha": "9916fbe0a5727c634d342914ff34f64ec375d56d",
+    "code_cells": 10,
+    "execution_counts": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "fatal_error_outputs": []
+  },
+  {
+    "path": "notebooks/02c-efficientnetv2s-128-training.ipynb",
+    "source_filename": "02_effnetv2_s_128_training_2026-10-21.ipynb",
+    "sha256": "c46b56267c239473b3269e89d7e3ee372a14cec7ef1ad8dc77bf1c43b237287a",
+    "git_blob_sha": "508fd7b159f2bb38965c0f13811306c0d7cc9068",
+    "code_cells": 10,
+    "execution_counts": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "fatal_error_outputs": []
+  },
+  {
+    "path": "notebooks/03-original-ensemble-tta.ipynb",
+    "source_filename": "03_original_ensemble_tta_2026-10-21.ipynb",
+    "sha256": "24228e42c09d12fa361228c91d2d0c81b78aaa5f0d0e4800a6a1cc49494a72ba",
+    "git_blob_sha": "14dec5083d83d7c7c98312ca363a9571982ea46c",
+    "code_cells": 10,
+    "execution_counts": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11
+    ],
+    "fatal_error_outputs": []
+  },
+  {
+    "path": "notebooks/04-controlled-improvement.ipynb",
+    "source_filename": "04_controlled_improvement_2026-10-21.ipynb",
+    "sha256": "bdd74b61d061834c8c133c617372026b434cb53de1105d3d151b7abcba489d5d",
+    "git_blob_sha": "e46d8b2c7102ea3367c67da0dfcc30fa64077e84",
+    "code_cells": 11,
+    "execution_counts": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12
+    ],
+    "fatal_error_outputs": []
+  },
+  {
+    "path": "notebooks/05-original-plus-geometry.ipynb",
+    "source_filename": "05-original-plus-geometry.ipynb",
+    "sha256": "40de0137b7c002039c0e4d8223327ea69235987d89842fc187d6527ffef6f766",
+    "git_blob_sha": "a553f7995cf096fb6791fc96a9257860aaa0d707",
+    "code_cells": 5,
+    "execution_counts": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "fatal_error_outputs": []
+  },
+  {
+    "path": "notebooks/06-full-data-convnextv2.ipynb",
+    "source_filename": "08_full_data_convnextv2_2026-10-21.ipynb",
+    "sha256": "cc3aba005f45726fd839e97df57a7f4d3e52335ea58a9ad83d5fb099856fdd1c",
+    "git_blob_sha": "03fdc31dddebfa13f5def7b060b50b9c11064d61",
+    "code_cells": 6,
+    "execution_counts": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "fatal_error_outputs": [],
+    "original_source_sha256": "00ea13ad05c49692849a35edf786cec3f886870938e34b5d4c88683cc8686c40",
+    "original_source_git_blob_sha": "7bef9bcd1edf861bbe4139bb32e37dc04164c569",
+    "documentation_changes": "Renumbered notebook title and Markdown references from 08 to 06; all code cells, execution counts and saved outputs are unchanged."
+  },
+  {
+    "path": "archive/03-two-model-ensemble-tta.ipynb",
+    "source_filename": "03-ensemble-tta.ipynb",
+    "sha256": "6481fc96fe199a16a4a4be6145ed8050d5c762e5c1cc3b805fa44f0c8c3511f6",
+    "git_blob_sha": "1685a1a6a09673473470352bc42671da3cea62e5",
+    "code_cells": 4,
+    "execution_counts": [
+      4,
+      6,
+      7,
+      8
+    ],
+    "fatal_error_outputs": []
+  }
+]

@@ -1,0 +1,3 @@
+experiment,reported_public_score,evidence_type,source_commit,verification_note
+Original ConvNeXt 224 experiment,0.9760,Original GitHub commit message,43668475541d4038d12a716c4653faaf32df3b1a,Reported in authentic historical commit; no matching Kaggle screenshot checked in this audit.
+Original ConvNeXt 128 and 224 flip-TTA ensemble,0.9783,Original GitHub commit message and original ensemble notebook label,8b4b88aa195a91edb2010c3846ec20f7d7477713,Reported in authentic historical source; no matching Kaggle screenshot checked in this audit.

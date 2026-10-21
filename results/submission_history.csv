@@ -1,0 +1,10 @@
+submission_filename,confirmed_public_score,recipe
+submission_ensemble3_effhalf_tta.csv,0.9785,Original three-model flip-TTA ensemble
+submission_geometry_128_clean.csv,0.9779,Geometry ConvNeXt 128 alone
+submission_original_plus_geometry.csv,0.9793,50% original ensemble plus 50% split-42 geometry clean
+submission_benchmark75_fullpair25.csv,0.9801,75% 0.9793 ensemble plus 12.5% full control TTA plus 12.5% full geometry clean
+submission_fullpair50.csv,0.9798,50% 0.9793 ensemble plus 25% full control TTA plus 25% full geometry clean
+submission_best75_convnextv2_tta25.csv,0.9806,75% 0.9801 ensemble plus 25% split-trained V2 TTA; current confirmed best
+01_submission_base62p5_v2tta37p5.csv,0.9805,62.5% 0.9801 ensemble plus 37.5% split-trained V2 TTA
+submission_base75_fullv2tta25.csv,0.9797,75% 0.9801 ensemble plus 25% full-data V2 TTA
+02_submission_base75_v2clean12p5_v2tta12p5.csv,0.9800,75% 0.9801 ensemble plus 12.5% split-trained V2 clean plus 12.5% split-trained V2 TTA

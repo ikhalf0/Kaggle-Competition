@@ -1,0 +1,26 @@
+{
+  "candidate": "submission_best75_convnextv2_tta25.csv",
+  "benchmark_public_score": 0.9801,
+  "weights": {
+    "benchmark_0_9801_ensemble": 0.75,
+    "convnextv2_tiny_192_split1337_flip_tta": 0.25
+  },
+  "new_component_training": "54,098 training images from split 1337; best checkpoint epoch 7 of 8; geometry augmentation; batch size 64.",
+  "independent_full_blend_validation_score": null,
+  "public_score": 0.9806,
+  "selection_note": "Observed public score 0.9806; no independent holdout score exists for this exact seven-model blend because it contains full-data components.",
+  "test_predictions_changed_vs_benchmark": 97,
+  "submission_sha256": "8d255cfb971b031801ac95e8600fdada6eb0d51190b993e472b305d148639d23",
+  "public_score_observed_date": "2026-10-21",
+  "public_score_evidence": "User-provided Kaggle submission screenshot at 05:36 Pacific/Auckland.",
+  "effective_seven_model_weights": {
+    "original_convnext128_tta": 0.1125,
+    "original_convnext224_tta": 0.1125,
+    "original_effnetv2s128_tta": 0.05625,
+    "split42_geometry128_clean": 0.28125,
+    "full_control128_tta": 0.09375,
+    "full_geometry128_clean": 0.09375,
+    "split1337_convnextv2_192_tta": 0.25
+  },
+  "later_full_data_v2_is_part_of_winning_recipe": false
+}

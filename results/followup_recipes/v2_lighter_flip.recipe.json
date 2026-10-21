@@ -1,0 +1,62 @@
+{
+  "candidate": "v2_half_clean_half_tta",
+  "filename": "02_submission_base75_v2clean12p5_v2tta12p5.csv",
+  "priority": "Submitted: 0.9800; best remains 0.9806",
+  "instruction": "Keep V2 total weight at 25%; change only its averaging of original and flipped views.",
+  "formula": "75% of the 0.9801 ensemble + 12.5% V2 clean + 12.5% V2 TTA",
+  "base_ensemble_public_score": 0.9801,
+  "comparison_best_public_score": 0.9806,
+  "new_public_score": 0.98,
+  "independent_full_blend_validation_score": null,
+  "submitted": true,
+  "effective_component_weights": {
+    "original_convnext128_tta": 0.11249999999999999,
+    "original_convnext224_tta": 0.11249999999999999,
+    "original_effnetv2s128_tta": 0.056249999999999994,
+    "split42_geometry128_clean": 0.28125,
+    "full_control128_tta": 0.09375,
+    "full_geometry128_clean": 0.09375,
+    "split1337_convnextv2_192_tta": 0.125,
+    "split1337_convnextv2_192_clean": 0.125
+  },
+  "rows": 29443,
+  "columns": [
+    "image_id",
+    "class"
+  ],
+  "changed_predictions_vs_best": 21,
+  "submission_sha256": "82dd584d491c877e97a136155d5aaa5c5b1085b73ff1a2dca4d4480f37c1ea2d",
+  "sources": {
+    "base_ensemble": {
+      "path": "assignment3_full_data_review/benchmark75_fullpair25_test.npz",
+      "sha256": "4a43e40bbf8ab554bbb772dc998a917f3bd58626ea5e13fbb727a056b5cb0e6e"
+    },
+    "v2_tta": {
+      "path": "assignment3_convnextv2_review/convnextv2_tiny_192_geometry_val1337_seed42/test_tta.npz",
+      "sha256": "c7b11b7181ff321e4f2d25e9d82288dc05a71b8d102a425385bc7eb415b572c9"
+    },
+    "v2_clean": {
+      "path": "assignment3_convnextv2_review/convnextv2_tiny_192_geometry_val1337_seed42/test_clean.npz",
+      "sha256": "94611cf14b01e9d551b48c2522c700812465249ec77f5cab125ff99f99e30cb6"
+    }
+  },
+  "verification": [
+    "exact sample ID order",
+    "all 29443 rows and eight allowed classes",
+    "finite nonnegative normalized probabilities",
+    "independent seven-checkpoint component reconstruction",
+    "float32/float64 argmax agreement",
+    "CSV saved and read back",
+    "distinct labels from all existing reviewed submission files"
+  ],
+  "limitations": [
+    "Test labels unavailable; label differences do not identify corrections.",
+    "Full-data components cannot be scored honestly against any reused training-label holdout.",
+    "Public-score-driven follow-ups can overfit the public subset; private score remains unknown."
+  ],
+  "flip_view_interpretation": "Within the V2 component: 75% original view plus 25% horizontally flipped view, because saved TTA is 50/50 original/flip.",
+  "public_score_observed_local": "2026-10-21 21:54 Pacific/Auckland",
+  "public_score_evidence": "results/evidence/public_lighter_flip_09800_2026-10-21.png",
+  "current_best_public_score": 0.9806,
+  "interpretation": "Lighter V2 flip averaging did not improve this public ensemble despite a small component-level validation improvement."
+}

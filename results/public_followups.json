@@ -1,0 +1,29 @@
+{
+  "v2_tta_37p5": {
+    "candidate": "v2_tta_37p5",
+    "filename": "01_submission_base62p5_v2tta37p5.csv",
+    "submitted": true,
+    "new_public_score": 0.9805,
+    "public_score_observed_local": "2026-10-21 19:00 Pacific/Auckland",
+    "public_score_evidence": "results/evidence/public_v2_weight375_09805_2026-10-21.png",
+    "current_best_public_score": 0.9806
+  },
+  "full_v2_replacement25": {
+    "candidate": "full_v2_replacement25",
+    "filename": "submission_base75_fullv2tta25.csv",
+    "submitted": true,
+    "new_public_score": 0.9797,
+    "public_score_observed_local": "2026-10-21 21:50 Pacific/Auckland",
+    "public_score_evidence": "results/evidence/public_full_v2_replacement_09797_2026-10-21.png",
+    "current_best_public_score": 0.9806
+  },
+  "v2_half_clean_half_tta": {
+    "candidate": "v2_half_clean_half_tta",
+    "filename": "02_submission_base75_v2clean12p5_v2tta12p5.csv",
+    "submitted": true,
+    "new_public_score": 0.98,
+    "public_score_observed_local": "2026-10-21 21:54 Pacific/Auckland",
+    "public_score_evidence": "results/evidence/public_lighter_flip_09800_2026-10-21.png",
+    "current_best_public_score": 0.9806
+  }
+}
