@@ -1,0 +1,57 @@
+{
+  "candidate": "v2_tta_18p75",
+  "filename": "submission_base81p25_v2tta18p75.csv",
+  "prepared_date_local": "2026-10-22 Pacific/Auckland",
+  "formula": "81.25% previous 0.9801 base ensemble + 18.75% split-trained ConvNeXt V2 Tiny 192px flip TTA",
+  "rationale": "Exploratory lighter V2 weight selected after 25%, 37.5% and 50% trials; its later observed score is recorded separately.",
+  "comparison_best_public_score": 0.9806,
+  "new_public_score": 0.9803,
+  "independent_full_blend_validation_score": null,
+  "submitted": true,
+  "effective_component_weights": {
+    "original_convnext128_tta": 0.121875,
+    "original_convnext224_tta": 0.121875,
+    "original_effnetv2s128_tta": 0.0609375,
+    "split42_geometry128_clean": 0.3046875,
+    "full_control128_tta": 0.1015625,
+    "full_geometry128_clean": 0.1015625,
+    "split1337_convnextv2_192_tta": 0.1875
+  },
+  "rows": 29443,
+  "columns": [
+    "image_id",
+    "class"
+  ],
+  "changed_predictions_vs_best": 34,
+  "submission_sha256": "d4461290e7002571955eda2ece0d6f0f1da58755901348d7cfa386a2d22780fe",
+  "sources": {
+    "base": {
+      "path": "assignment3_full_data_review/benchmark75_fullpair25_test.npz",
+      "sha256": "4a43e40bbf8ab554bbb772dc998a917f3bd58626ea5e13fbb727a056b5cb0e6e"
+    },
+    "v2": {
+      "path": "assignment3_convnextv2_review/convnextv2_tiny_192_geometry_val1337_seed42/test_tta.npz",
+      "sha256": "c7b11b7181ff321e4f2d25e9d82288dc05a71b8d102a425385bc7eb415b572c9"
+    }
+  },
+  "checks": [
+    "source fingerprints match",
+    "known winning recipe reconstructed exactly",
+    "29443 unique IDs in exact sample order",
+    "eight-class order unchanged",
+    "finite nonnegative normalised source probabilities",
+    "float32 and float64 predictions agree",
+    "CSV saved and read back",
+    "distinct from existing reviewed submission files",
+    "best submission unchanged"
+  ],
+  "limitations": [
+    "Different predictions are not known corrections.",
+    "No independent holdout score for the full-data blend.",
+    "Weight selected using prior public outcomes; improvement and private performance remain unknown."
+  ],
+  "public_score_observed_local": "2026-10-23 23:29 Pacific/Auckland",
+  "public_score_evidence": "results/evidence/public_v2_weight18p75_09803_2026-10-23.png",
+  "current_best_public_score": 0.9806,
+  "interpretation": "Reducing V2 from 25% to 18.75% lowered the observed public score from 0.9806 to 0.9803; 25% remains best among the tested weights."
+}

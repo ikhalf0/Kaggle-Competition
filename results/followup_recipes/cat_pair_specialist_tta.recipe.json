@@ -1,0 +1,20 @@
+{
+  "filename": "submission_cat_pair_specialist_tta.csv",
+  "submitted": true,
+  "new_public_score": 0.9799,
+  "submission_sha256": "57930a5465090e4ac7a8fc0e5355579a55881753ae5c0c179545f76887fcffa8",
+  "model_checkpoint_sha256": "1ecd2e71f3c7d25b0bd926e8c4fbd04d7c4f3b51e4c191e4fb0bdfb6f499aa2f",
+  "reference_best_public_score": 0.9806,
+  "reference_best_csv_sha256": "8d255cfb971b031801ac95e8600fdada6eb0d51190b993e472b305d148639d23",
+  "policy_path": "results/cat_mouth_nose_specialist/routing_policy.json",
+  "primary_view": "tta",
+  "validation_reference": "Separate split-trained proxy; not exact full-data winner",
+  "proxy_before_errors": 23,
+  "proxy_after_errors": 22,
+  "fixed": 3,
+  "broken": 2,
+  "test_routed_rows": 312,
+  "changed_test_labels": 44,
+  "independent_full_blend_validation": null,
+  "public_score_evidence": "results/evidence/public_cat_pair_specialist_tta_09799_2026-10-23.png"
+}

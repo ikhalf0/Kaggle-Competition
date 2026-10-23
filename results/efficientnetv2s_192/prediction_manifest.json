@@ -1,0 +1,22 @@
+{
+  "config_sha256": "585fcf91c7a884e97ca8fbaf81f3c2a3887112c0a75d619059d7a9be46ab3f71",
+  "checkpoint_sha256": "94528da850d9c232a9b1690ae4e936b6040ab410706325b434de94a672fcf820",
+  "files": {
+    "val_clean.npz": "54eb99acffd79ee54f02582559c587c0ac1543d0ff6209a50c1c26868270ea85",
+    "val_tta.npz": "7c2a519c5dec636a019debc7239c732de9e3a8de21591288babd2bc8d3271d7d",
+    "test_clean.npz": "145a15ae44a78a24abeb81f11049b3a4ec3d65d88e1142a023dfe91db0cdb282",
+    "test_tta.npz": "b924a977fd97426b4b924c2ad3bf19332551e3260e29c63c271c02f08e39288a"
+  },
+  "classes": [
+    "CatEye",
+    "CatFace",
+    "CatMouth",
+    "CatNose",
+    "DogEye",
+    "DogFace",
+    "DogMouth",
+    "DogNose"
+  ],
+  "validation_images": 9547,
+  "test_images": 29443
+}

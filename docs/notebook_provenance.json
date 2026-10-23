@@ -166,5 +166,85 @@
       8
     ],
     "fatal_error_outputs": []
+  },
+  {
+    "path": "notebooks/07-efficientnetv2s-192-validation.ipynb",
+    "source_filename": "07-efficientnetv2s-192-validation.ipynb",
+    "sha256": "532d12648ef2e4ffac04c0c02286fd5b10ce8ca61d18d7ffe6c349ed4426bac0",
+    "git_blob_sha": "71a3ebf0f8b3f8c4710d0fc92e2026220e7d4838",
+    "code_cells": 7,
+    "execution_counts": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "fatal_error_outputs": [],
+    "status": "completed",
+    "byte_identical_to_supplied_or_prepared_source": true,
+    "note": "Original code, metadata and saved outputs preserved."
+  },
+  {
+    "path": "notebooks/08-cat-mouth-nose-specialist.ipynb",
+    "source_filename": "08-cat-mouth-nose-specialist (1).ipynb",
+    "sha256": "cb48ecb4eba3eff430fc4096a6cf52379efc21d790382721b47b148384622b1e",
+    "git_blob_sha": "d25852db9baf51d924ede7a648be51f59af15f19",
+    "code_cells": 8,
+    "execution_counts": [
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "fatal_error_outputs": [],
+    "status": "completed",
+    "byte_identical_to_supplied_or_prepared_source": true,
+    "note": "Original code, metadata and saved outputs preserved."
+  },
+  {
+    "path": "notebooks/09-resize-comparison.ipynb",
+    "source_filename": "09-resize-comparsion.ipynb",
+    "sha256": "69c718c4df84973a6ccea1b2090ddc82b9f6be596b562343512ffad1276af377",
+    "git_blob_sha": "2b791163da04b1bdc7b8db0da0c1dc0817114fc9",
+    "code_cells": 6,
+    "execution_counts": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "fatal_error_outputs": [],
+    "status": "completed",
+    "byte_identical_to_supplied_or_prepared_source": true,
+    "note": "Original code, metadata and saved outputs preserved."
+  },
+  {
+    "path": "notebooks/10-dinov2-base224-validation.ipynb",
+    "source_filename": "10-dinov2-base224-validation.ipynb",
+    "sha256": "98efcddd4d3551ecdaed05cdf75b6c803c2ffcd4c3c2638464c1a87b144f0670",
+    "git_blob_sha": "765059cec15ba98c8c9aabf7567dec1e1ed73eda",
+    "code_cells": 7,
+    "execution_counts": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "fatal_error_outputs": [],
+    "status": "running_user_reported",
+    "byte_identical_to_supplied_or_prepared_source": true,
+    "note": "Prepared source only; user reports Kaggle run underway. No executed copy, timing, metrics or public score received."
   }
 ]

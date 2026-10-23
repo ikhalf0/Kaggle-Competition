@@ -1,0 +1,77 @@
+{
+  "source_sha256": "9b2c9fa8c5c1d52665b9847234e673d039721d9025088c4365c7fa8b7bbb2e4c",
+  "method": {
+    "version": 1,
+    "resize": "Pillow LANCZOS",
+    "phash": "32x32 greyscale; top-left 8x8 orthonormal DCT, DC excluded; 63 median-threshold bits",
+    "dhash": "9x8 greyscale; 64 horizontal greater-than comparison bits",
+    "nearest": "minimum sum of phash and dhash Hamming distances to the saved training subset",
+    "pixel_identity": "SHA256 of original width/height and RGB decoded pixel bytes",
+    "thresholds": [
+      0,
+      2,
+      4,
+      8
+    ],
+    "caveat": "Exploratory similarities, not verified source-photo or animal groups."
+  },
+  "validation": {
+    "images": 9547,
+    "identical_decoded_pixels_to_training": 0,
+    "identical_files_to_training": 0,
+    "median_nearest_distance": 31.0,
+    "thresholds": {
+      "0": {
+        "images": 1,
+        "fraction": 0.00010474494605635278,
+        "reference_errors": 0,
+        "same_class_as_neighbour": 1
+      },
+      "2": {
+        "images": 5,
+        "fraction": 0.0005237247302817639,
+        "reference_errors": 0,
+        "same_class_as_neighbour": 5
+      },
+      "4": {
+        "images": 15,
+        "fraction": 0.0015711741908452917,
+        "reference_errors": 0,
+        "same_class_as_neighbour": 15
+      },
+      "8": {
+        "images": 35,
+        "fraction": 0.0036660731119723474,
+        "reference_errors": 0,
+        "same_class_as_neighbour": 35
+      }
+    }
+  },
+  "test": {
+    "images": 29443,
+    "identical_decoded_pixels_to_training": 0,
+    "identical_files_to_training": 0,
+    "median_nearest_distance": 32.0,
+    "thresholds": {
+      "0": {
+        "images": 0,
+        "fraction": 0.0
+      },
+      "2": {
+        "images": 1,
+        "fraction": 3.396393030601501e-05
+      },
+      "4": {
+        "images": 4,
+        "fraction": 0.00013585572122406004
+      },
+      "8": {
+        "images": 24,
+        "fraction": 0.0008151343273443603
+      }
+    }
+  },
+  "validation_reference_errors": 23,
+  "modifications_to_data_models_submissions": false,
+  "public_test_ground_truth_used": false
+}

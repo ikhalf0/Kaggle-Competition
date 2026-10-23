@@ -1,0 +1,72 @@
+{
+  "config_sha256": "96d668d1812b39925e95ad04df71bc59faa4d5a08f63c120f63cff5b407a5879",
+  "config": {
+    "experiment": "09-fixed-resize-comparison-v1",
+    "source_manifest_sha256": "ecfba4a0b35a2fa91909fb0282b477b5332645e0a96c3e8e59c2100626c4bf3c",
+    "checkpoint_sha256": "b2162e667cc1cb304b4ea8b57816253ad67f8c825a1cd84d38050cfce7973e1c",
+    "split_hash": "842af9ee7beb6fe8c85fd55163deeb15cf8a5c778506c075f987e9b9ed9889b6",
+    "classes": [
+      "CatEye",
+      "CatFace",
+      "CatMouth",
+      "CatNose",
+      "DogEye",
+      "DogFace",
+      "DogMouth",
+      "DogNose"
+    ],
+    "size": 192,
+    "methods": [
+      "stretch",
+      "letterbox"
+    ],
+    "padding": "constant ImageNet mean RGB",
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "resize_interpolation": "Pillow bilinear",
+    "letterbox_rounding": "round, clamp to [1,size], extra padding right/bottom",
+    "primary": {
+      "case": "original",
+      "averaging": "tta"
+    },
+    "secondary": {
+      "original_ordinary": true,
+      "cases": [
+        "legacy_wide",
+        "legacy_tall"
+      ],
+      "averaging": "ordinary"
+    },
+    "legacy_stress": "square resize first, then reflect-pad round(size*.15) on vertical (wide) or horizontal (tall) sides",
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "batch_size": 64,
+    "num_workers": 0,
+    "amp": "float16",
+    "source_code_sha256": "984bcb143444646b6cc18e461b7fcf33a5362ef6938e1a7e75a4c04f66716ec1",
+    "versions": {
+      "python": "3.13.15",
+      "torch": "2.11.0+cu128",
+      "torchvision": "0.26.0+cu128",
+      "timm": "1.0.29",
+      "numpy": "2.1.3",
+      "pandas": "2.3.3",
+      "pillow": "13.0.0"
+    },
+    "gpu": "Tesla T4",
+    "cudnn_deterministic": true,
+    "cuda_matmul_tf32": false,
+    "cudnn_tf32": true
+  }
+}

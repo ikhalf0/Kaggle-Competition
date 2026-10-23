@@ -1,0 +1,5 @@
+case,averaging,saved_errors,fresh_errors,argmax_disagreements,mean_abs_probability_difference,max_abs_probability_difference
+original,ordinary,34,34,0,2.250621378152573e-07,0.0001716017723083496
+original,tta,29,29,0,1.9135012507831561e-07,9.757280349731445e-05
+legacy_wide,ordinary,63,63,0,2.632802704738424e-07,0.00017684698104858398
+legacy_tall,ordinary,73,73,0,2.0265936484520353e-07,0.00018310546875

@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "experiment": "09-fixed-resize-comparison-v1",
+  "source_backup_sha256": "e0d476477ce3cba654fcdb2613a455667e19dc223533e1f5af6ffeb2973f53df",
+  "model": "convnextv2_tiny.fcmae_ft_in1k",
+  "checkpoint_sha256": "b2162e667cc1cb304b4ea8b57816253ad67f8c825a1cd84d38050cfce7973e1c",
+  "selected_epoch": 7,
+  "classes": [
+    "CatEye",
+    "CatFace",
+    "CatMouth",
+    "CatNose",
+    "DogEye",
+    "DogFace",
+    "DogMouth",
+    "DogNose"
+  ],
+  "split_hash": "842af9ee7beb6fe8c85fd55163deeb15cf8a5c778506c075f987e9b9ed9889b6",
+  "label_sha256": "94124e856786379a9c1e9c8c7ba4599a9f27fe8dc6ea4165dc4afc55024d41a3",
+  "training_images": 54098,
+  "validation_images": 9547,
+  "baseline_errors": {
+    "clean": 34,
+    "tta": 29,
+    "wide": 63,
+    "tall": 73
+  },
+  "files": {
+    "v2_best.pth": {
+      "sha256": "b2162e667cc1cb304b4ea8b57816253ad67f8c825a1cd84d38050cfce7973e1c",
+      "bytes": 111554437
+    },
+    "v2_config.json": {
+      "sha256": "da3a0ad21dc0bdbed82b9043d2eafb865a4046c287c26c79c389fc64a634d623",
+      "bytes": 827
+    },
+    "v2_history.csv": {
+      "sha256": "0d37604de233ea5006d83fc50d292528f20b1006ca1426f01538adaffae647d8",
+      "bytes": 801
+    },
+    "reference_val_clean.npz": {
+      "sha256": "08c0413c29e3172d578a37310bfc64e4bb7fe0d8efae03698c83eff4256e752d",
+      "bytes": 288578
+    },
+    "reference_val_tta.npz": {
+      "sha256": "8f9513a4dca0c184eac9e7399b974c426624a74f97e97607e984296e14fb50c9",
+      "bytes": 288317
+    },
+    "reference_val_wide.npz": {
+      "sha256": "2b18a1a761fb7ee4667f37d120d61fd38093609d31486fd1997b9daef6f621f6",
+      "bytes": 289177
+    },
+    "reference_val_tall.npz": {
+      "sha256": "3cd484d1953a92d284fa2296d9e2f19a43df84203bf47e3e01db82e693bc6e5f",
+      "bytes": 289533
+    },
+    "train_metadata_clean.csv": {
+      "sha256": "e8c8e61648f7780cfb9ea8cb660e4c82f3ffaacc838cc69fc37136a0bb0db41f",
+      "bytes": 3992638
+    },
+    "train_split_1337.csv": {
+      "sha256": "bf327a02fe46738694ff024b51065c1b9aa253ee87b280cbfc290e47e54ff13c",
+      "bytes": 737155
+    },
+    "val_split_1337.csv": {
+      "sha256": "fd74e81fb552e487b2e399dc875e20099d26ad71a8666e627adfa1244ef78b87",
+      "bytes": 130078
+    }
+  }
+}

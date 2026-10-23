@@ -1,0 +1,6 @@
+image_id,true_class,previous_class,specialist_routed_class,routed,fixed,broken
+17933,CatNose,CatMouth,CatNose,True,True,False
+48795,CatNose,CatNose,CatMouth,True,False,True
+14948,CatNose,CatMouth,CatNose,True,True,False
+25420,CatNose,CatMouth,CatNose,True,True,False
+36627,CatNose,CatNose,CatMouth,True,False,True

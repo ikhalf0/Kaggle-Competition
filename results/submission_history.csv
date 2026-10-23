@@ -8,3 +8,7 @@ submission_best75_convnextv2_tta25.csv,0.9806,75% 0.9801 ensemble plus 25% split
 01_submission_base62p5_v2tta37p5.csv,0.9805,62.5% 0.9801 ensemble plus 37.5% split-trained V2 TTA
 submission_base75_fullv2tta25.csv,0.9797,75% 0.9801 ensemble plus 25% full-data V2 TTA
 02_submission_base75_v2clean12p5_v2tta12p5.csv,0.9800,75% 0.9801 ensemble plus 12.5% split-trained V2 clean plus 12.5% split-trained V2 TTA
+03_reserve_submission_base50_v2tta50.csv,0.9802,50% 0.9801 ensemble plus 50% split-trained V2 TTA
+submission_best75_effnet192tta25.csv,0.9805,75% 0.9806 winner plus 25% split-trained EfficientNetV2-S 192 TTA
+submission_cat_pair_specialist_tta.csv,0.9799,Frozen CatMouth/CatNose routing; 50/50 conditional specialist/reference blend on eligible rows
+submission_base81p25_v2tta18p75.csv,0.9803,81.25% 0.9801 ensemble plus 18.75% split-trained V2 TTA

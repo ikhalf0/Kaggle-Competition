@@ -25,5 +25,51 @@
     "public_score_observed_local": "2026-10-21 21:54 Pacific/Auckland",
     "public_score_evidence": "results/evidence/public_lighter_flip_09800_2026-10-21.png",
     "current_best_public_score": 0.9806
+  },
+  "v2_tta_50": {
+    "candidate": "v2_tta_50",
+    "filename": "03_reserve_submission_base50_v2tta50.csv",
+    "submitted": true,
+    "new_public_score": 0.9802,
+    "public_score_observed_local": "2026-10-22 18:27 Pacific/Auckland",
+    "public_score_evidence": "results/evidence/public_v2_weight50_09802_2026-10-22.png",
+    "current_best_public_score": 0.9806
+  },
+  "effnet192_tta_25": {
+    "candidate": "effnet192_tta_25",
+    "filename": "submission_best75_effnet192tta25.csv",
+    "submitted": true,
+    "new_public_score": 0.9805,
+    "public_score_observed_local": "2026-10-22 21:34 Pacific/Auckland",
+    "public_score_evidence": "results/evidence/public_effnet192_tta25_09805_2026-10-22.png",
+    "current_best_public_score": 0.9806
+  },
+  "cat_pair_specialist_tta": {
+    "candidate": "cat_pair_specialist_tta",
+    "filename": "submission_cat_pair_specialist_tta.csv",
+    "candidate_sha256": "57930a5465090e4ac7a8fc0e5355579a55881753ae5c0c179545f76887fcffa8",
+    "submitted": true,
+    "new_public_score": 0.9799,
+    "public_score_observed_local": "2026-10-23 00:59 Pacific/Auckland",
+    "public_score_evidence": "results/evidence/public_cat_pair_specialist_tta_09799_2026-10-23.png",
+    "current_best_public_score": 0.9806,
+    "changed_test_labels_from_best": 44,
+    "validation_reference": "Separate split-trained proxy; not the exact winning full-data ensemble",
+    "validation_errors_before": 23,
+    "validation_errors_after": 22,
+    "validation_fixed": 3,
+    "validation_broken": 2
+  },
+  "v2_tta_18p75": {
+    "candidate": "v2_tta_18p75",
+    "filename": "submission_base81p25_v2tta18p75.csv",
+    "candidate_sha256": "d4461290e7002571955eda2ece0d6f0f1da58755901348d7cfa386a2d22780fe",
+    "submitted": true,
+    "new_public_score": 0.9803,
+    "public_score_observed_local": "2026-10-23 23:29 Pacific/Auckland",
+    "public_score_evidence": "results/evidence/public_v2_weight18p75_09803_2026-10-23.png",
+    "current_best_public_score": 0.9806,
+    "changed_test_labels_from_best": 34,
+    "formula": "81.25% previous 0.9801 base ensemble + 18.75% split-trained ConvNeXt V2 Tiny 192px flip TTA"
   }
 }

@@ -1,0 +1,51 @@
+{
+  "archive_sha256": "d12a2cb162775594a960edafd4532aa8bb15390a5cb24ede1f565958fd043099",
+  "archive_crc_passed": true,
+  "checkpoint_sha256": "94528da850d9c232a9b1690ae4e936b6040ab410706325b434de94a672fcf820",
+  "checkpoint_deserialized": false,
+  "config_sha256": "585fcf91c7a884e97ca8fbaf81f3c2a3887112c0a75d619059d7a9be46ab3f71",
+  "training_rows": 54098,
+  "validation_rows": 9547,
+  "test_rows": 29443,
+  "training_epochs": 8,
+  "selected_epoch": 7,
+  "training_seconds": 5230.9,
+  "standalone": {
+    "clean": {
+      "errors": 41,
+      "accuracy": 0.9957054572116896,
+      "nll": 0.10987367326441301
+    },
+    "tta": {
+      "errors": 43,
+      "accuracy": 0.9954959673195768,
+      "nll": 0.10975058746445336
+    }
+  },
+  "same_split_proxy_definition": "0.75*(0.75 control clean + 0.25 geometry clean) + 0.25 split V2 TTA; NOT the full winning ensemble",
+  "same_split_proxy_baseline": {
+    "errors": 23,
+    "accuracy": 0.9975908662407039,
+    "nll": 0.09849035276059266
+  },
+  "current_best_public_score": 0.9806,
+  "best_csv_sha256_unchanged": "8d255cfb971b031801ac95e8600fdada6eb0d51190b993e472b305d148639d23",
+  "limitations": [
+    "The same split has been reused for exploratory decisions and checkpoint selection.",
+    "The full winning ensemble includes full-data models and has no independent holdout score.",
+    "Changed test predictions are disagreements, not known corrections.",
+    "Checkpoints were fingerprinted, not deserialized or rerun locally.",
+    "EffNet192 also changes normalization, augmentation and split versus original EffNet128; it is not a pure resolution ablation."
+  ],
+  "selected_exploratory_candidate": {
+    "filename": "submission_best75_effnet192tta25.csv",
+    "sha256": "73f4cccfc063208de01bd7278c763406b1a3b326363850179f8bcff0a3e109bf",
+    "changed_vs_best": 87,
+    "public_score": 0.9805,
+    "submitted": true,
+    "independent_full_blend_validation": null,
+    "public_score_observed_local": "2026-10-22 21:34 Pacific/Auckland",
+    "public_score_evidence": "results/evidence/public_effnet192_tta25_09805_2026-10-22.png"
+  },
+  "source_backup": "efficientnetv2s_192_validation_backup.zip"
+}

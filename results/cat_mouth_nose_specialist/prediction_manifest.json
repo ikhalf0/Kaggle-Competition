@@ -1,0 +1,33 @@
+{
+  "config_sha256": "5f6b354611b62a072c45a41cd7febd47f65c9df7f5d98515f2b9ad23b37e7944",
+  "checkpoint_sha256": "1ecd2e71f3c7d25b0bd926e8c4fbd04d7c4f3b51e4c191e4fb0bdfb6f499aa2f",
+  "binary_classes": [
+    "CatMouth",
+    "CatNose"
+  ],
+  "all_classes": [
+    "CatEye",
+    "CatFace",
+    "CatMouth",
+    "CatNose",
+    "DogEye",
+    "DogFace",
+    "DogMouth",
+    "DogNose"
+  ],
+  "files": {
+    "test_binary_clean.npz": "3b6694dc74dda652f37e8404e0fc1d188a4d42fc088be69f471eef8c491f0f32",
+    "test_binary_tta.npz": "d645947fd7c13164128903e112e0f697a96ff5baccd5364e3bb9f6be13018203",
+    "test_routed_clean.npz": "10191dba92e63804a71795deadad6587b591908c3459fba9a066680fb62f9535",
+    "test_routed_tta.npz": "6f9e02e39b71f202c5d350b7e2e6a8e4510105822a1c197a76d5b188fee19469",
+    "val_binary_clean.npz": "e31f17fce57f5b1440476b001f2ea8b6d70c736a7092d3c177609ca6207e21d0",
+    "val_binary_tta.npz": "4ed11efc54fee92c08bac570c0433d326829a31b26bd974d5e2401d5e1051024",
+    "val_routed_clean.npz": "690a5fb4615834ffbd4884a966bff10a6e43a89da3991fdc2a26587370acc7b8",
+    "val_routed_tta.npz": "523ee3b0b82aefaf3552e85ead0f85d595d198a3ad688700f4eb5bc963fbcb01"
+  },
+  "full_validation_images": 9547,
+  "test_images": 29443,
+  "routed_test_images": 312,
+  "reference_validation_sha256": "984c4b4bcd35a4321feef5e362b86aebd40d9939a308e8aa9c55374f3ac40b52",
+  "reference_test_sha256": "48bc36222ad383f69122fc5890c49d5f646081117dc6bd3b711ac33205dfed11"
+}

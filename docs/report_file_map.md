@@ -1,16 +1,18 @@
 # Report references
 
-These paths are available on the repository's main branch. They are references to saved evidence, not claims that every notebook should be rerun in one session.
+These are stable paths for this branch and for `main` after this update is merged. They point to saved evidence; running all training notebooks again is not required to inspect the report figures. Completed Notebooks 01–09 preserve their executed outputs. Notebook 10 has no returned results yet.
 
-| Report task | Main source | Supporting evidence |
+| Report task | Main sources | Supporting evidence |
 |---|---|---|
-| Task 1 Dataset exploration | `notebooks/01-eda-facial-features.ipynb` | `results/split42/shape_summary.csv` and the EDA figures retained in the notebook. |
-| Task 2 Preprocessing | `notebooks/02a-convnext-128-training.ipynb` and `notebooks/04-controlled-improvement.ipynb` | Transform definitions, split settings, preview outputs and saved configurations. |
-| Task 3 Model development | `notebooks/02a-convnext-128-training.ipynb`, `notebooks/02b-convnext-224-training.ipynb`, `notebooks/02c-efficientnetv2s-128-training.ipynb` | The ConvNeXt V2 section of Notebook 04 and `results/best_ensemble/recipe.json`. |
-| Task 4 Training strategy | Training cells and curves in Notebooks 02a, 02b, 02c, 04 and 06 | `results/split42/`, `results/confirmation_split1337/`, `results/full_data_128/`, `results/convnextv2_split1337/` and `results/full_data_convnextv2/`. |
-| Task 5 Evaluation | `notebooks/03-original-ensemble-tta.ipynb`, `notebooks/04-controlled-improvement.ipynb` and `notebooks/05-original-plus-geometry.ipynb` | `results/submission_history.csv`, classification reports, confusion matrices, validation result tables and the exact winning recipe. |
-| Task 6 Analysis and improvements | Comparisons in Notebooks 03, 04, 05 and 06 | Paired error tables, two-split comparisons, synthetic stress results and the unsuccessful public follow-ups. |
+| Task 1 Dataset exploration | Notebook 01 | EDA figures, `results/split42/shape_summary.csv`, `results/validation_audit/` for the later crop-shape/similarity checks. |
+| Task 2 Preprocessing | Notebooks 02a, 04 and the input sections of 07–09 | Saved transform definitions/configurations; Notebook 09's resize comparison. Explain that letterbox was tested only at inference for a square-trained model. |
+| Task 3 Model development | Notebooks 02a, 02b, 02c, 04, 07 and 08 | `results/best_ensemble/recipe.json`, EfficientNet192 configuration, specialist configuration and frozen routing policy. Notebook 10 can describe an ongoing trial only until outputs are supplied. |
+| Task 4 Training strategy | Notebooks 02a–02c, 04, 06–08 | Histories and curves in the matching results folders. Keep ordinary validation NLL separate from augmented, label-smoothed training loss. |
+| Task 5 Evaluation | Notebooks 03–05 and 07–09 | `results/submission_history.csv`, `results/evidence/`, class metrics, paired errors and `results/resize_comparison/`. The final 0.9806 blend has no independent holdout score. |
+| Task 6 Analysis and improvements | Notebooks 04–09, plus the audit summaries | `results/analysis_and_limits.md`, unsuccessful public follow-ups, crop-shape differences and the limits of reused validation/synthetic checks. Notebook 10 remains a planned/running experiment without results. |
 
-For an academic report, cite notebook names and the relevant section or experiment, with repository paths where useful. The final Word report is being written separately, one subsection at a time. The selected final CSV is `results/best_ensemble/submission_best75_convnextv2_tta25.csv`, and unchanged Kaggle score captures are under `results/evidence/`.
+Canonical notebooks are linked from the root README. The selected CSV remains `results/best_ensemble/submission_best75_convnextv2_tta25.csv`. The unchanged screenshots and digest index are under `results/evidence/`. Use filenames plus relevant notebook sections or table names when referencing evidence in the Word report, which is prepared separately.
 
-The 0.9806 recipe uses the split-trained V2 checkpoint selected at epoch 7. Notebook 06's full-data V2 replacement scored 0.9797 at the tested 25% weight. Do not interchange these models or attach the earlier 99.822% split-42 validation accuracy to the final seven-model ensemble.
+The 0.9806 recipe uses the split-trained V2 checkpoint selected at epoch 7. Notebook 06's later full-data V2 replacement scored 0.9797. The earlier 99.822% split-42 validation accuracy belongs to the 0.9793 intermediate blend. The 23-to-22-error EfficientNet and specialist comparisons use a separate split-trained proxy. None is an independent validation score of the exact final seven-model winner.
+
+The full-data notebook numbered 06 was originally executed with an 08 filename. Canonical Notebook 08 now refers to the later cat-pair specialist. Notebook 09's supplied filename had the spelling `09-resize-comparsion.ipynb`; its repository filename is corrected without changing any notebook bytes. Provenance and digests are in `docs/notebook_provenance.json`.

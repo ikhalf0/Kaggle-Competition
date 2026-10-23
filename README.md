@@ -2,7 +2,7 @@
 
 ENGE707 Assignment 3. This private repository records the data exploration, training experiments and saved results for an eight-class Kaggle image classification task.
 
-The best confirmed public score is **0.9806**, from `submission_best75_convnextv2_tta25.csv`, observed on 21 October 2026. Its exact seven-model recipe is in [results/best_ensemble/recipe.json](results/best_ensemble/recipe.json). Later trials scored 0.9805, 0.9797 and 0.9800. The newer full-data ConvNeXt V2 model is an unsuccessful follow-up and is not a component of the 0.9806 winner.
+The best confirmed public score is **0.9806**, from `submission_best75_convnextv2_tta25.csv`, observed on 21 October 2026. Its exact seven-model recipe is in [results/best_ensemble/recipe.json](results/best_ensemble/recipe.json). Follow-up submissions and their unchanged score evidence are recorded in [results/submission_history.csv](results/submission_history.csv). None has exceeded 0.9806. Notebook 10 is running according to the user; no result is recorded for it. The newer full-data ConvNeXt V2 model is an unsuccessful follow-up and is not a component of the 0.9806 winner.
 
 ## Repository contents
 
@@ -16,8 +16,12 @@ The best confirmed public score is **0.9806**, from `submission_best75_convnextv
 | [04 Controlled improvement](notebooks/04-controlled-improvement.ipynb) | Executed split-1337 confirmation, full-data 128px pair and split-trained ConvNeXt V2 experiment. |
 | [05 Original plus geometry](notebooks/05-original-plus-geometry.ipynb) | Split-42 geometry blending and the intermediate 0.9793 submission. |
 | [06 Full-data ConvNeXt V2](notebooks/06-full-data-convnextv2.ipynb) | Later seven-epoch full-data V2 training and test predictions. |
+| [07 EfficientNetV2-S 192](notebooks/07-efficientnetv2s-192-validation.ipynb) | Completed eight-class training and saved validation/test outputs; its tested blend scored 0.9805. |
+| [08 Cat mouth/nose specialist](notebooks/08-cat-mouth-nose-specialist.ipynb) | Completed binary specialist and frozen routing; submitted TTA candidate scored 0.9799. |
+| [09 Resize comparison](notebooks/09-resize-comparison.ipynb) | Completed inference-only stretch/letterbox comparison; no test prediction or submission. |
+| [10 DINOv2 Base 224](notebooks/10-dinov2-base224-validation.ipynb) | Prepared source for the run reported underway; no executed output or score received. |
 
-The full-data ConvNeXt V2 notebook is numbered 06 for the repository reading order; it was originally executed as Notebook 08. Its saved backup names and code comments retain that historical label. The full-data pair and split-trained V2 experiments remain inside the executed Notebook 04. Notebook 05 is an intermediate experiment, rather than a cell dependency of the later appended sections. Historical Notebook 04 versions and the earlier two-model ensemble are preserved under [archive](archive/README.md). Original code cells and saved outputs are retained in the notebooks; this reorganisation changes their repository paths, not their experiment results.
+The full-data ConvNeXt V2 notebook is numbered 06 for the repository reading order; it was originally executed as Notebook 08. Its saved backup names and code comments retain that historical label. The full-data pair and split-trained V2 experiments remain inside the executed Notebook 04. Notebook 05 is an intermediate experiment, rather than a cell dependency of the later appended sections. Historical Notebook 04 versions and the earlier two-model ensemble are preserved under [archive](archive/README.md). Completed notebooks retain their original code cells and saved outputs; Notebook 10 is an unexecuted source copy. This reorganisation changes their repository paths, not their experiment results.
 
 Small configurations, histories, confusion matrices, learning curves and comparisons are under [results](results/README.md). [The report file map](docs/report_file_map.md) identifies stable paths for Tasks 1 to 6. [The setup guide](docs/setup_and_reproduction.md) describes inputs, recorded versions and reproduction limits.
 
