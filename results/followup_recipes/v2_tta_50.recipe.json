@@ -1,8 +1,6 @@
 {
   "candidate": "v2_tta_50",
   "filename": "03_reserve_submission_base50_v2tta50.csv",
-  "priority": "Larger-weight reserve",
-  "instruction": "A larger move toward V2; prioritize after reviewing trial 01, especially if 01 improves.",
   "formula": "50% of the 0.9801 ensemble + 50% V2 TTA",
   "base_ensemble_public_score": 0.9801,
   "comparison_best_public_score": 0.9806,
@@ -50,5 +48,8 @@
     "Public-score-driven follow-ups can overfit the public subset; private score remains unknown."
   ],
   "public_score_observed_local": "2026-10-22 18:27 Pacific/Auckland",
-  "public_score_evidence": "results/evidence/public_v2_weight50_09802_2026-10-22.png"
+  "public_score_evidence": "results/evidence/public_v2_weight50_09802_2026-10-22.png",
+  "pre_submission_priority": "Larger-weight reserve",
+  "pre_submission_instruction": "A larger move toward V2; prioritize after reviewing trial 01, especially if 01 improves.",
+  "status_note": "Completed trial; observed score 0.9802. The pre-submission fields describe the earlier selection plan, not a request to submit again."
 }

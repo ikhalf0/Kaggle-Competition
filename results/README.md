@@ -25,3 +25,5 @@ The best confirmed public score remains **0.9806**. The thirteen rows in `submis
 Read [analysis_and_limits.md](analysis_and_limits.md) for what these experiments establish. The exact full-data winning blend has no independent holdout score. The earlier 17-error result belongs to the 0.9793 split-42 blend; the later 23-error reference is a split-trained diagnostic proxy. They are not validation scores of the final 0.9806 submission.
 
 Completed code and saved outputs are in Notebooks 01–09. Notebook 10 is a prepared source copy with empty outputs because no executed copy has been received. GPU training was not rerun for this repository update. Large checkpoints, probability arrays, input ZIPs and non-winning submission CSVs stay in private Kaggle outputs/downloaded backups, indexed in `docs/private_artifact_inventory.json`.
+
+Original run-export metadata was saved before manual Kaggle submissions, so a retained `complete_run.json` can have a null public-score field. Read `submission_history.csv`, `public_followups.json` and the later review/recipe records for the confirmed submission outcomes. The source export is preserved as historical evidence.
