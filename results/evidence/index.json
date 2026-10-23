@@ -1,35 +1,35 @@
 [
   {
     "path": "results/evidence/public_best_09806_2026-10-21.png",
-    "original_filename": "Screenshot 2026-10-21 at 5.36.40 AM.png",
+    "original_filename": "Screenshot 2026-10-21 at 5.36.40\u202fAM.png",
     "sha256": "bea2f2075be78e568d924574eb0793fcb24557a062ed87eb18dd48caaa5593cc",
     "description": "Best public score 0.9806; no updated rank shown.",
     "unaltered_screenshot": true
   },
   {
     "path": "results/evidence/public_rank4_09801_2026-10-21_0350.png",
-    "original_filename": "Screenshot 2026-10-21 at 3.50.43 AM.png",
+    "original_filename": "Screenshot 2026-10-21 at 3.50.43\u202fAM.png",
     "sha256": "f0cdf16dabf1094411d2224c5d232ff5042a3ffa1688ea5bd5e8152f122d8b41",
     "description": "Historical public rank 4 at score 0.9801, 03:50 local time; not the current rank.",
     "unaltered_screenshot": true
   },
   {
     "path": "results/evidence/public_v2_weight375_09805_2026-10-21.png",
-    "original_filename": "Screenshot 2026-10-21 at 7.00.15 PM.png",
+    "original_filename": "Screenshot 2026-10-21 at 7.00.15\u202fPM.png",
     "sha256": "85f754e4462ba339bf3b7bd0abcb7343d5c2e1835d20341750fe012148461926",
     "description": "Public follow-up score 0.9805.",
     "unaltered_screenshot": true
   },
   {
     "path": "results/evidence/public_full_v2_replacement_09797_2026-10-21.png",
-    "original_filename": "Screenshot 2026-10-21 at 9.50.14 PM.png",
+    "original_filename": "Screenshot 2026-10-21 at 9.50.14\u202fPM.png",
     "sha256": "584d2f059b86743071bf8ecd09bdad9d3b01a3e7f10a84c7c89ea1d1664193bd",
     "description": "Public follow-up score 0.9797.",
     "unaltered_screenshot": true
   },
   {
     "path": "results/evidence/public_lighter_flip_09800_2026-10-21.png",
-    "original_filename": "Screenshot 2026-10-21 at 9.54.50 PM.png",
+    "original_filename": "Screenshot 2026-10-21 at 9.54.50\u202fPM.png",
     "sha256": "8a8b40ac7798e3cc575ac7f23afc0c88cdbe9117edaf7bfcc85ea4f68e18245d",
     "description": "Public follow-up score 0.98.",
     "unaltered_screenshot": true
@@ -60,6 +60,13 @@
     "original_filename": "public_v2_weight18p75_09803_2026-10-23.png",
     "sha256": "fd9622cba28f2bdbe4cc5cc70ca58fba3508b83825951f4b3c045a8bdc668d2b",
     "description": "Confirmed public score 0.9803 for submission_base81p25_v2tta18p75.csv.",
+    "unaltered_screenshot": true
+  },
+  {
+    "path": "results/evidence/public_dinov2b224_tta25_09806_2026-10-24.png",
+    "original_filename": "Screenshot 2026-10-24 at 3.28.48\u202fAM.png",
+    "sha256": "6c39adbae475d3cb1f518a444e3c49afc9189ae21c4c9e4e2dbe85cb2e10baf5",
+    "description": "DINOv2 Base 224 TTA 25% blend scored 0.9806, tying the earlier displayed best; no updated rank shown.",
     "unaltered_screenshot": true
   }
 ]

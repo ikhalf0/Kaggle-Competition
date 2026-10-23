@@ -1,0 +1,20 @@
+{
+  "candidate": "dinov2b224_tta_25",
+  "filename": "submission_best75_dinov2b224tta25.csv",
+  "candidate_sha256": "03c736b816cc3e87733602c2c374aeaf2b0c2be4fdcc00f06e8bf1d359c85fef",
+  "submitted": true,
+  "new_public_score": 0.9806,
+  "previous_best_public_score": 0.9806,
+  "current_best_public_score": 0.9806,
+  "public_score_observed_local": "2026-10-24 03:28 Pacific/Auckland",
+  "public_score_evidence": "results/evidence/public_dinov2b224_tta25_09806_2026-10-24.png",
+  "evidence_sha256": "6c39adbae475d3cb1f518a444e3c49afc9189ae21c4c9e4e2dbe85cb2e10baf5",
+  "result": "ties_displayed_best_score",
+  "changed_test_labels_from_best": 134,
+  "validation_reference": "Separate split-trained proxy; not exact winning full-data ensemble",
+  "validation_errors_before": 23,
+  "validation_errors_after": 18,
+  "validation_fixed": 5,
+  "validation_broken": 0,
+  "note": "No higher displayed public score. The displayed tie does not reveal which changed predictions were correct or the private-score ordering."
+}

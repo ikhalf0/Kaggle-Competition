@@ -1,0 +1,10 @@
+{
+  "config_sha256": "f98a80ac789d47c1d78e3430175a30c9f1683e51513110b77338e58426fc281b",
+  "gpu": "Tesla T4",
+  "synthetic_images_per_second": 103.92102902876695,
+  "forward_backward_compute_minutes_per_full_epoch": 8.676139389302499,
+  "compute_hours_for_seven_full_epochs": 1.0122162620852915,
+  "peak_allocated_gib": 3.4657669067382812,
+  "benchmark_excludes_io_validation_optimizer_and_backup": true,
+  "optimizer_updates": 0
+}

@@ -1,0 +1,12 @@
+{
+  "clean_blend_test_changes_vs_original": 159,
+  "tta_blend_test_changes_vs_original": 134,
+  "clean_vs_tta_test_label_disagreements": 62,
+  "clean_standalone_validation_errors": 24,
+  "tta_standalone_validation_errors": 29,
+  "clean_blend_validation_errors": 18,
+  "tta_blend_validation_errors": 18,
+  "clean_alternative_submitted": false,
+  "clean_alternative_public_score": null,
+  "note": "Both fixed 25% blends have identical saved validation class predictions. No demonstrated public-score advantage for the clean variant."
+}

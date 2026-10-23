@@ -1,0 +1,127 @@
+{
+  "review_archive": {
+    "filename": "10_dinov2_review_backup.zip",
+    "sha256": "569a38e745e4c65c14bf759e3eacf61369566e01b90f7d2ee590b468b083bdc7",
+    "all_members_crc_passed": true
+  },
+  "recovery_archive": {
+    "filename": "10_dinov2_recovery_backup.zip",
+    "sha256": "9c1390a5c6a6c39354e6402ff63d197fedeacd69ebe4a7889e54d600e5df556f",
+    "all_members_crc_passed": true
+  },
+  "shared_backup_members_identical": 9,
+  "checkpoint_sha256": "f1f72e5ad0ba57b53f9c60fcee83eddbb313bd7606c6da51da9684b89e963a36",
+  "config_sha256": "f98a80ac789d47c1d78e3430175a30c9f1683e51513110b77338e58426fc281b",
+  "last_checkpoint_retained": true,
+  "checkpoint_deserialized_locally": false,
+  "training_or_gpu_inference_rerun_locally": false,
+  "gpu_resume_tested": false,
+  "notebook": {
+    "source_filename": "10-dinov2-base224-validation (1).ipynb",
+    "saved_copy": "notebooks/10-dinov2-base224-validation.ipynb",
+    "sha256": "dbed8e8479430adc0042ce12a97a44d502eae1181e30286464dd7d80b22d1aeb",
+    "byte_identical_copy": true,
+    "all_seven_code_cells_executed": true,
+    "code_matches_prepared_notebook": true,
+    "fatal_error_outputs": 0,
+    "training_history_matches_backup": true,
+    "completed_epochs": 8,
+    "selected_epoch": 8,
+    "validation_tables_match_prediction_arrays": true,
+    "test_export_matches_backup": true,
+    "credential_literal_scan_passed": true
+  },
+  "training_rows": 54098,
+  "validation_rows": 9547,
+  "test_rows": 29443,
+  "completed_epochs": 8,
+  "selected_epoch": 8,
+  "history_training_and_validation_seconds": 8585.8,
+  "validation_standalone": {
+    "clean": {
+      "errors": 24,
+      "accuracy": 0.9974861212946475,
+      "nll": 0.09895282238721848
+    },
+    "tta": {
+      "errors": 29,
+      "accuracy": 0.9969623965643658,
+      "nll": 0.09796969592571259
+    }
+  },
+  "reference_proxy": {
+    "errors": 23,
+    "accuracy": 0.9975908662407039,
+    "nll": 0.09849035271270598
+  },
+  "primary_validation": {
+    "view": "tta",
+    "candidate": "fixed_25pct_blend",
+    "group": "all_validation",
+    "images": 9547,
+    "errors": 18,
+    "accuracy": 0.9981145909709856,
+    "nll": 0.09761531422431842,
+    "fixed": 5,
+    "broken": 0,
+    "changed": 5
+  },
+  "secondary_stress": [
+    {
+      "case": "wide",
+      "model": "v2_reference",
+      "errors": 63,
+      "accuracy": 0.9934010683984498,
+      "nll": 0.1106907275184822
+    },
+    {
+      "case": "wide",
+      "model": "dinov2",
+      "errors": 45,
+      "accuracy": 0.9952864774274641,
+      "nll": 0.10565926134586334
+    },
+    {
+      "case": "tall",
+      "model": "v2_reference",
+      "errors": 73,
+      "accuracy": 0.9923536189378862,
+      "nll": 0.11190987689490879
+    },
+    {
+      "case": "tall",
+      "model": "dinov2",
+      "errors": 40,
+      "accuracy": 0.9958102021577458,
+      "nll": 0.1036098450422287
+    }
+  ],
+  "all_six_prediction_fingerprints_ids_classes_and_views_passed": true,
+  "confusion_matrices_and_class_report_rows_recomputed": true,
+  "candidate": {
+    "filename": "submission_best75_dinov2b224tta25.csv",
+    "sha256": "03c736b816cc3e87733602c2c374aeaf2b0c2be4fdcc00f06e8bf1d359c85fef",
+    "valid_csv": true,
+    "weights": {
+      "best_09806": 0.75,
+      "dinov2_base224_tta": 0.25
+    },
+    "exact_reconstruction": true,
+    "changed_test_labels_from_best": 134,
+    "duplicate_existing_csvs": [],
+    "existing_csvs_compared": 31,
+    "clean_vs_tta_blend_test_label_disagreements": 62,
+    "public_score": 0.9806,
+    "submitted": true,
+    "public_score_evidence": "results/evidence/public_dinov2b224_tta25_09806_2026-10-24.png",
+    "public_result": "ties_displayed_best_score"
+  },
+  "current_best_public_score": 0.9806,
+  "independent_exact_winning_blend_validation": null,
+  "recommendation": "Retain the original and DINOv2 0.9806 files. Review evidence before using the remaining submission slot; no further candidate is established as better.",
+  "limitations": [
+    "Validation is a reused split-trained proxy, not the exact full-data winning ensemble.",
+    "The five-error proxy gain and synthetic stress improvement do not guarantee a public or private score gain.",
+    "Backups, fingerprints, outputs and probability calculations were checked; checkpoints were not loaded and GPU training/resumption was not rerun locally."
+  ]
+}
