@@ -1,0 +1,51 @@
+{
+  "source": "09_resize_comparison_backup.zip",
+  "backup_sha256": "93fac6d1be128398aa6184c80639295b0a6b124c17f3e155aca1d1e9c1e4fa98",
+  "archive_crc_passed": true,
+  "all_eight_prediction_fingerprints_passed": true,
+  "config_sha256": "96d668d1812b39925e95ad04df71bc59faa4d5a08f63c120f63cff5b407a5879",
+  "checkpoint_sha256": "b2162e667cc1cb304b4ea8b57816253ad67f8c825a1cd84d38050cfce7973e1c",
+  "primary_original_tta": {
+    "stretch_errors": 29,
+    "letterbox_errors": 154,
+    "fixed": 1,
+    "broken": 126
+  },
+  "new_primary_errors_by_class": {
+    "CatEye": 0,
+    "CatFace": 0,
+    "CatMouth": 116,
+    "CatNose": 0,
+    "DogEye": 0,
+    "DogFace": 0,
+    "DogMouth": 10,
+    "DogNose": 0
+  },
+  "baseline_reproduction": [
+    {
+      "case": "original",
+      "averaging": "ordinary",
+      "all_baseline_labels_reproduced": true
+    },
+    {
+      "case": "original",
+      "averaging": "tta",
+      "all_baseline_labels_reproduced": true
+    },
+    {
+      "case": "legacy_wide",
+      "averaging": "ordinary",
+      "all_baseline_labels_reproduced": true
+    },
+    {
+      "case": "legacy_tall",
+      "averaging": "ordinary",
+      "all_baseline_labels_reproduced": true
+    }
+  ],
+  "decision": "Keep existing resize for this checkpoint. Do not generate a letterbox submission from this evaluation.",
+  "limitation": "The model was trained with square resizing. This comparison does not determine the performance of a model trained using letterboxing.",
+  "current_best_public_score": 0.9806,
+  "public_score_for_this_experiment": null,
+  "submission_created": false
+}

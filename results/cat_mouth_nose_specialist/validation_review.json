@@ -1,0 +1,30 @@
+{
+  "primary_view": "tta",
+  "all_class_comparison": {
+    "view": "tta",
+    "group": "all_validation",
+    "images": 9547,
+    "before_errors": 23,
+    "after_errors": 22,
+    "fixed": 3,
+    "broken": 2,
+    "changed": 5,
+    "before_nll": 0.09849035271270598,
+    "after_nll": 0.0984583604551182
+  },
+  "pair_comparison": {
+    "view": "tta",
+    "group": "true_cat_pair",
+    "images": 2082,
+    "before_errors": 15,
+    "after_errors": 14,
+    "fixed": 3,
+    "broken": 2,
+    "changed": 5,
+    "before_nll": 0.11050874610302411,
+    "after_nll": 0.11036204577488262
+  },
+  "preliminary_development_pass": true,
+  "automatic_submission": false,
+  "note": "Development diagnostic only. Review broken predictions, pair/subgroup counts and NLL before choosing a public test. No independent full-winning-blend holdout score exists."
+}

@@ -1,0 +1,55 @@
+{
+  "candidate": "v2_tta_50",
+  "filename": "03_reserve_submission_base50_v2tta50.csv",
+  "formula": "50% of the 0.9801 ensemble + 50% V2 TTA",
+  "base_ensemble_public_score": 0.9801,
+  "comparison_best_public_score": 0.9806,
+  "new_public_score": 0.9802,
+  "independent_full_blend_validation_score": null,
+  "submitted": true,
+  "effective_component_weights": {
+    "original_convnext128_tta": 0.075,
+    "original_convnext224_tta": 0.075,
+    "original_effnetv2s128_tta": 0.0375,
+    "split42_geometry128_clean": 0.1875,
+    "full_control128_tta": 0.0625,
+    "full_geometry128_clean": 0.0625,
+    "split1337_convnextv2_192_tta": 0.5
+  },
+  "rows": 29443,
+  "columns": [
+    "image_id",
+    "class"
+  ],
+  "changed_predictions_vs_best": 130,
+  "submission_sha256": "93be0632b4f44660afa1d7656a6b5fda6243dfcc751aa2945e650f1ea2db3a48",
+  "sources": {
+    "base_ensemble": {
+      "path": "assignment3_full_data_review/benchmark75_fullpair25_test.npz",
+      "sha256": "4a43e40bbf8ab554bbb772dc998a917f3bd58626ea5e13fbb727a056b5cb0e6e"
+    },
+    "v2_tta": {
+      "path": "assignment3_convnextv2_review/convnextv2_tiny_192_geometry_val1337_seed42/test_tta.npz",
+      "sha256": "c7b11b7181ff321e4f2d25e9d82288dc05a71b8d102a425385bc7eb415b572c9"
+    }
+  },
+  "verification": [
+    "exact sample ID order",
+    "all 29443 rows and eight allowed classes",
+    "finite nonnegative normalized probabilities",
+    "independent seven-checkpoint component reconstruction",
+    "float32/float64 argmax agreement",
+    "CSV saved and read back",
+    "distinct labels from all existing reviewed submission files"
+  ],
+  "limitations": [
+    "Test labels unavailable; label differences do not identify corrections.",
+    "Full-data components cannot be scored honestly against any reused training-label holdout.",
+    "Public-score-driven follow-ups can overfit the public subset; private score remains unknown."
+  ],
+  "public_score_observed_local": "2026-10-22 18:27 Pacific/Auckland",
+  "public_score_evidence": "results/evidence/public_v2_weight50_09802_2026-10-22.png",
+  "pre_submission_priority": "Larger-weight reserve",
+  "pre_submission_instruction": "A larger move toward V2; prioritize after reviewing trial 01, especially if 01 improves.",
+  "status_note": "Completed trial; observed score 0.9802. The pre-submission fields describe the earlier selection plan, not a request to submit again."
+}

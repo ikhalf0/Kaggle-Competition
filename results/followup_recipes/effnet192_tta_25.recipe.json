@@ -1,0 +1,116 @@
+{
+  "candidate": "submission_best75_effnet192tta25",
+  "filename": "submission_best75_effnet192tta25.csv",
+  "prepared_date_local": "2026-10-22 Pacific/Auckland",
+  "formula": "75% current 0.9806 best ensemble + 25% split1337 EfficientNetV2-S 192px horizontal-flip TTA",
+  "current_best_public_score": 0.9806,
+  "new_public_score": 0.9805,
+  "submitted": true,
+  "independent_full_blend_validation_score": null,
+  "effective_component_weights": {
+    "original_convnext128_tta": 0.084375,
+    "original_convnext224_tta": 0.084375,
+    "original_effnetv2s128_tta": 0.0421875,
+    "split42_geometry128_clean": 0.2109375,
+    "full_control128_tta": 0.0703125,
+    "full_geometry128_clean": 0.0703125,
+    "split1337_convnextv2_192_tta": 0.1875,
+    "split1337_effnetv2s192_tta": 0.25
+  },
+  "rows": 29443,
+  "columns": [
+    "image_id",
+    "class"
+  ],
+  "changed_predictions_vs_best": 87,
+  "submission_sha256": "73f4cccfc063208de01bd7278c763406b1a3b326363850179f8bcff0a3e109bf",
+  "new_checkpoint_sha256": "94528da850d9c232a9b1690ae4e936b6040ab410706325b434de94a672fcf820",
+  "new_model_config_sha256": "585fcf91c7a884e97ca8fbaf81f3c2a3887112c0a75d619059d7a9be46ab3f71",
+  "new_archive_sha256": "d12a2cb162775594a960edafd4532aa8bb15390a5cb24ede1f565958fd043099",
+  "sources": {
+    "best_probability_file": "assignment3_convnextv2_review/best75_v2tta25_test.npz",
+    "best_probability_sha256": "48bc36222ad383f69122fc5890c49d5f646081117dc6bd3b711ac33205dfed11",
+    "best_csv_file": "assignment3_convnextv2_review/submission_best75_convnextv2_tta25.csv",
+    "best_csv_sha256": "8d255cfb971b031801ac95e8600fdada6eb0d51190b993e472b305d148639d23",
+    "new_probability_file": "efficientnetv2s_192_geometry_val1337_seed42/test_tta.npz",
+    "new_probability_sha256": "b924a977fd97426b4b924c2ad3bf19332551e3260e29c63c271c02f08e39288a",
+    "original_component_files": {
+      "original_convnext128_tta": {
+        "path": "assignment3_ensemble_review/old_convnext_t_128_test_tta.npz",
+        "sha256": "8f96d30f9ec884e50cc0fc19d423184b6cae0f08a65d5f028c1426bc3c6eccfd"
+      },
+      "original_convnext224_tta": {
+        "path": "assignment3_ensemble_review/old_convnext_t_224_test_tta.npz",
+        "sha256": "ead5463625d9995b4f54624b51039dcd88a8e1dbddca2d3aa5bea7f19623c1d5"
+      },
+      "original_effnetv2s128_tta": {
+        "path": "assignment3_ensemble_review/old_effnetv2_s_128_test_tta.npz",
+        "sha256": "3132e44e2825f1d3aa8418aff7e119608320d1706f988168f9852aa4f058fc54"
+      },
+      "split42_geometry128_clean": {
+        "path": "assignment3_results/geometry_128_val42_seed42/test_clean.npz",
+        "sha256": "c4c80624460fd87a64f1ed1a94d099ba2b9f5e5675685785dcd170e3dc3c78b9"
+      },
+      "full_control128_tta": {
+        "path": "assignment3_full_data_review/control_128_full_seed42/test_tta.npz",
+        "sha256": "bc296a44eee650f930ffdae334ca349e7e01172def5c82e8b3a4e582a9d81397"
+      },
+      "full_geometry128_clean": {
+        "path": "assignment3_full_data_review/geometry_128_full_seed42/test_clean.npz",
+        "sha256": "5b08ec4521692b54a051e7ef964a11def78d7054e51ccffa9589f21415733adb"
+      },
+      "split1337_convnextv2_192_tta": {
+        "path": "assignment3_convnextv2_review/convnextv2_tiny_192_geometry_val1337_seed42/test_tta.npz",
+        "sha256": "c7b11b7181ff321e4f2d25e9d82288dc05a71b8d102a425385bc7eb415b572c9"
+      }
+    }
+  },
+  "diagnostics": {
+    "same_split_proxy_definition": "0.75*(0.75 control clean + 0.25 geometry clean) + 0.25 split V2 TTA; NOT the full winning ensemble",
+    "proxy_before": {
+      "errors": 23,
+      "accuracy": 0.9975908662407039,
+      "nll": 0.09849035276059266
+    },
+    "proxy_after": {
+      "errors": 22,
+      "accuracy": 0.9976956111867602,
+      "nll": 0.10050633314587638,
+      "fixed": 2,
+      "broken": 1,
+      "changed": 3
+    },
+    "note": "A separate reused holdout diagnostic, not validation of the full submitted blend."
+  },
+  "rationale": [
+    "Tests whether a new architecture/resolution configuration adds complementary predictions to the known winner.",
+    "Uses a moderate 25% new-model weight as an exploratory trial, not a proxy error-count optimum.",
+    "Clean and flip-averaged 25% additions tie on proxy errors; TTA has marginally lower proxy NLL, which is weak exploratory evidence.",
+    "New standalone model is weaker than the existing same-split models, and proxy NLL worsens when it is added.",
+    "Neither fewer disagreements nor the proxy improvement establishes better public or private accuracy."
+  ],
+  "checks": [
+    "archive CRC passed",
+    "best checkpoint, config, history and all four prediction fingerprints verified",
+    "original labels and exact 54098/9547 split verified; no shared IDs or exact duplicate hashes",
+    "reported validation tables independently reproduced",
+    "confusion matrix and mistake IDs verified",
+    "all 29443 test IDs in exact original sample order; no hidden test labels",
+    "known 0.9806 best recipe reconstructed from seven components",
+    "candidate independently reconstructed from eight effective weights",
+    "finite normalized probabilities; float32/float64 argmax agreement",
+    "exported CSV and NPZ read back; valid columns and labels",
+    "candidate distinct from existing reviewed submissions",
+    "original winning CSV remains unchanged"
+  ],
+  "limitations": [
+    "The same split has been reused for exploratory decisions and checkpoint selection.",
+    "The full winning ensemble includes full-data models and has no independent holdout score.",
+    "Changed test predictions are disagreements, not known corrections.",
+    "Checkpoints were fingerprinted, not deserialized or rerun locally.",
+    "EffNet192 also changes normalization, augmentation and split versus original EffNet128; it is not a pure resolution ablation.",
+    "The user-observed public score is 0.9805; private leaderboard performance remains unknown."
+  ],
+  "public_score_observed_local": "2026-10-22 21:34 Pacific/Auckland",
+  "public_score_evidence": "results/evidence/public_effnet192_tta25_09805_2026-10-22.png"
+}

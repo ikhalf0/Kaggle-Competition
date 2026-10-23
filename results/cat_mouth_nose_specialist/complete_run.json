@@ -1,0 +1,33 @@
+{
+  "run": "convnextv2_tiny_192_cat_mouth_nose_val1337_seed42",
+  "config_sha256": "5f6b354611b62a072c45a41cd7febd47f65c9df7f5d98515f2b9ad23b37e7944",
+  "best_sha256": "1ecd2e71f3c7d25b0bd926e8c4fbd04d7c4f3b51e4c191e4fb0bdfb6f499aa2f",
+  "epochs": 8,
+  "selected_epoch": 8,
+  "current_best_public_score": 0.9806,
+  "new_model_public_score": null,
+  "primary_view": "tta",
+  "preliminary_development_pass": true,
+  "independent_winning_ensemble_validation": null,
+  "routing_policy": {
+    "pair_classes": [
+      "CatMouth",
+      "CatNose"
+    ],
+    "pair_indices": [
+      2,
+      3
+    ],
+    "minimum_pair_mass": 0.8,
+    "maximum_pair_conditional_confidence": 0.9,
+    "specialist_weight": 0.5,
+    "eligibility": "Original reference top two classes must be exactly CatMouth and CatNose.",
+    "combination": "Preserve pair probability mass; average reference conditional pair probabilities and specialist probabilities 50/50.",
+    "primary_view": "tta",
+    "selection": "Best clean binary validation accuracy; ordinary NLL tie breaker.",
+    "outside_route": "All other rows and every non-pair probability remain unchanged."
+  },
+  "validation_routed": 39,
+  "test_routed": 312,
+  "checkpoint_and_predictions_complete": true
+}

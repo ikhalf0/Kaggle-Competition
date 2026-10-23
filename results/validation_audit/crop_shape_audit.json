@@ -1,0 +1,49 @@
+{
+  "shape_rule": "Predict CatNose if abs(round(width/height, 2)-1) < .05, otherwise CatMouth; true pair subset only.",
+  "shape_rule_results": {
+    "training": {
+      "images": 11800,
+      "errors": 45,
+      "accuracy": 0.9961864406779661
+    },
+    "validation": {
+      "images": 2082,
+      "errors": 15,
+      "accuracy": 0.9927953890489913
+    }
+  },
+  "specialist_comparison": {
+    "prediction_disagreements": 28,
+    "wrong_in_both": 1,
+    "rule_mistakes_fixed_by_specialist": 14,
+    "rule_correct_broken_by_specialist": 14,
+    "specialist_errors": 15
+  },
+  "validation_near_square_fraction": 0.6982298104116477,
+  "test_near_square_fraction": 0.445708657405835,
+  "expected_test_square_fraction_using_train_class_shapes_and_predicted_test_class_mix": 0.6977759707985166,
+  "validation_proxy_accuracy_excluding_distance_at_most8": 0.9975820016820858,
+  "visually_inspected_pairs": [
+    {
+      "validation": 25184,
+      "training": 3701
+    },
+    {
+      "validation": 38535,
+      "training": 4029
+    },
+    {
+      "validation": 18363,
+      "training": 41596
+    },
+    {
+      "validation": 51013,
+      "training": 62179
+    }
+  ],
+  "test_class_statistics_are_predictions_not_ground_truth": true,
+  "model_reliance_on_shape_not_established": true,
+  "exact_cause_of_public_score_gap_not_established": true,
+  "existing_models_not_validated_on_new_holdout": true,
+  "new_models_or_submissions_created": false
+}

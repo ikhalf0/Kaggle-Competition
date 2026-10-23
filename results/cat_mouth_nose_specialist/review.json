@@ -1,0 +1,70 @@
+{
+  "source_backup": "cat_mouth_nose_specialist_backup.zip",
+  "backup_sha256": "120439c022a5e2c846971b050c66d49ec574bfd3be58fdeec90e69e03a3bcd4f",
+  "input_pack_manifest_sha256": "570120d1b229b51a13abbfa837b50712d8b0f63d57301fa6398964ed07b5ca21",
+  "checkpoint_sha256": "1ecd2e71f3c7d25b0bd926e8c4fbd04d7c4f3b51e4c191e4fb0bdfb6f499aa2f",
+  "config_sha256": "5f6b354611b62a072c45a41cd7febd47f65c9df7f5d98515f2b9ad23b37e7944",
+  "reference_best_public_score": 0.9806,
+  "reference_best_csv_sha256": "8d255cfb971b031801ac95e8600fdada6eb0d51190b993e472b305d148639d23",
+  "results": {
+    "val_clean": {
+      "images": 9547,
+      "routed": 39,
+      "changed_labels": 5,
+      "before": {
+        "errors": 23,
+        "accuracy": 0.9975908662407039,
+        "nll": 0.09849035271270598
+      },
+      "after": {
+        "errors": 22,
+        "accuracy": 0.9976956111867602,
+        "nll": 0.09853765114232449
+      },
+      "fixed": 3,
+      "broken": 2
+    },
+    "val_tta": {
+      "images": 9547,
+      "routed": 39,
+      "changed_labels": 5,
+      "before": {
+        "errors": 23,
+        "accuracy": 0.9975908662407039,
+        "nll": 0.09849035271270598
+      },
+      "after": {
+        "errors": 22,
+        "accuracy": 0.9976956111867602,
+        "nll": 0.0984583604551182
+      },
+      "fixed": 3,
+      "broken": 2
+    },
+    "test_clean": {
+      "images": 29443,
+      "routed": 312,
+      "changed_labels": 47,
+      "mouth_to_nose": 18,
+      "nose_to_mouth": 29
+    },
+    "test_tta": {
+      "images": 29443,
+      "routed": 312,
+      "changed_labels": 44,
+      "mouth_to_nose": 17,
+      "nose_to_mouth": 27
+    }
+  },
+  "candidate": "submission_cat_pair_specialist_tta.csv",
+  "candidate_sha256": "57930a5465090e4ac7a8fc0e5355579a55881753ae5c0c179545f76887fcffa8",
+  "candidate_public_score": 0.9799,
+  "submitted": true,
+  "primary_view": "tta",
+  "policy_unchanged": true,
+  "weights_or_thresholds_searched": false,
+  "independent_full_winning_ensemble_validation": null,
+  "limitation": "Validation uses a separate split-trained proxy, not the exact full-data winning ensemble. Its one-error gain did not transfer: the submitted specialist scored 0.9799, below 0.9806.",
+  "public_score_observed_local": "2026-10-23 00:59 Pacific/Auckland",
+  "public_score_evidence": "results/evidence/public_cat_pair_specialist_tta_09799_2026-10-23.png"
+}

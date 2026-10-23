@@ -2,7 +2,7 @@
 
 ## Recorded environment
 
-The later Kaggle runs record Python 3.13.15, PyTorch 2.11.0+cu128, torchvision 0.26.0+cu128 and timm 1.0.29. See `results/environment.json` and the run configurations. NumPy, pandas, Pillow, scikit-learn, matplotlib and tqdm are also imported. Their exact versions were not recorded in the supplied manifests; do not treat this list as a fully locked environment. Use a compatible Kaggle GPU environment for training. The existing notebooks do not establish bit-for-bit reproducibility across hardware and package versions.
+The later Kaggle runs record Python 3.13.15, PyTorch 2.11.0+cu128, torchvision 0.26.0+cu128 and timm 1.0.29. See `results/environment.json` and the run configurations. NumPy, pandas, Pillow, scikit-learn, matplotlib and tqdm are also imported. The completed Notebooks 07–09 also record NumPy 2.1.3, pandas 2.3.3 and Pillow 13.0.0. Exact versions of scikit-learn, matplotlib and tqdm were not recorded; do not treat this list as a fully locked environment. Use a compatible Kaggle GPU environment for training. The existing notebooks do not establish bit-for-bit reproducibility across hardware and package versions.
 
 ## Inputs
 
@@ -14,7 +14,7 @@ Notebook 06 can reuse the cleaned metadata from the supplied training-metadata c
 
 ## Viewing results and reproducing experiments
 
-All canonical notebooks retain their saved outputs. View them directly when checking figures and results. Running training cells starts the recorded experiments again. Notebook 04 retains confirmation, full-data-pair and V2 sections in their executed order; the appended sections use definitions created by earlier cells. It is not a standalone final seven-checkpoint inference command.
+Completed canonical Notebooks 01–09 retain their saved outputs. Notebook 10 is an unexecuted prepared copy; its Kaggle run is reported underway, with no returned execution evidence. View them directly when checking figures and results. Running training cells starts the recorded experiments again. Notebook 04 retains confirmation, full-data-pair and V2 sections in their executed order; the appended sections use definitions created by earlier cells. It is not a standalone final seven-checkpoint inference command.
 
 To reproduce the original models, run Notebook 01 followed by the relevant 02 training notebook with its recorded seed, transforms, model and settings. Notebook 03 loads those checkpoints and averages original/flip probabilities. The winning original weights are 40% ConvNeXt 128, 40% ConvNeXt 224 and 20% EfficientNetV2-S 128. Its later shape-adjustment experiments are separate recipes.
 
@@ -33,3 +33,21 @@ The selected final CSV is committed at `results/best_ensemble/submission_best75_
 Each holdout result belongs to its recorded split and inference view. Exact duplicate hashes are disjoint within each split, but related source-photo crops may cross splits. Synthetic wide/tall stress views probe the augmentation family and are not unbiased estimates of general robustness.
 
 The original EfficientNet notebook uses label-smoothed cross-entropy for both training and validation loss. The controlled notebook uses smoothed training loss and ordinary validation NLL. Their loss values are not directly comparable. EfficientNet's patience-three early-stopping condition did not trigger; it completed eight epochs. The later full-data models deliberately have no independent holdout score, and that applies to the exact final ensemble too.
+
+
+## Later notebooks and private inputs
+
+| Notebook | Inputs besides Competition | Execution and evidence |
+|---|---|---|
+| 07 EfficientNet192 | `07_effnet192_inputs.zip`: cleaned metadata, exact split and reference predictions. | Eight completed epochs, selected epoch 7. Clean/TTA results and the 0.9805 public trial are separate records. The saved output includes nonfatal worker-cleanup messages; training and export completed. |
+| 08 Cat-pair specialist | `08_cat_pair_inputs.zip`: exact pair/full splits, frozen references and routing manifest. | Eight completed binary epochs, selected epoch 8. The executed copy retains the corrected float64 routing and later recovery/backup cells. Public candidate 0.9799. |
+| 09 Resize comparison | `09_resize_comparison_inputs.zip`: **eight-class** split-trained V2 checkpoint and reference data. | Inference only. It does not use the binary specialist checkpoint, train a model or export a submission. |
+| 10 DINOv2 Base224 | `10_dinov2_inputs.zip`: metadata, split, prior validation predictions and exact winning test probabilities/CSV. | Prepared source only. Public pretrained weights download at the speed-check cell; no token is required. Run one cell at a time and review speed before training, then validation before test export. |
+
+Keep input datasets private. The input ZIPs and probability arrays are omitted from Git; their filenames and hashes are in the private artifact inventory. An authorised reviewer needs those matching private artifacts. Their manifest fingerprints are checked by each notebook. Automatic path discovery accepts unpacked input directories or the supported ZIP filename; if multiple matching inputs are attached, set the explicit path at the top of the notebook.
+
+Notebook 10 explicitly sets `img_size=224`, overriding the model card's default 518px. It verifies model normalisation and eight output classes. The official timm loader resizes pretrained position embeddings to that grid. The classifier-only warm-up is followed by a new two-rate AdamW optimizer for full fine-tuning. Accumulation uses micro-batches of 32 and an effective batch of 64. The final partial update uses its actual number of images. Full fine-tuning has a short warm-up and cosine decay; the scheduler advances only on successful AMP updates.
+
+The speed check makes no optimizer update and excludes image loading, optimizer overhead, validation, backups and test inference. It is not a total-runtime measurement. Notebook 10 has an eight-hour guard between saved epochs, but does not measure account-wide GPU quota or time lost to interrupted epochs. The model's real GPU load, training, resume and timing have not been tested locally.
+
+Completed epochs save optimizer, scheduler, scaler and random states in `last.pth` and create a recovery ZIP. Download it or save a Kaggle version with outputs before ending a session. The smaller review ZIP omits `last.pth`; it supports review/inference from `best.pth`, while full optimizer-state resumption requires the recovery artifacts. Matching run configuration and environment fingerprints are enforced. An interrupted epoch repeats from the last completed epoch. No notebook can recover an unsaved file after Kaggle has discarded the old session.

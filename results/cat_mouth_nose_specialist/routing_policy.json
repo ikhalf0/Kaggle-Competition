@@ -1,0 +1,18 @@
+{
+  "pair_classes": [
+    "CatMouth",
+    "CatNose"
+  ],
+  "pair_indices": [
+    2,
+    3
+  ],
+  "minimum_pair_mass": 0.8,
+  "maximum_pair_conditional_confidence": 0.9,
+  "specialist_weight": 0.5,
+  "eligibility": "Original reference top two classes must be exactly CatMouth and CatNose.",
+  "combination": "Preserve pair probability mass; average reference conditional pair probabilities and specialist probabilities 50/50.",
+  "primary_view": "tta",
+  "selection": "Best clean binary validation accuracy; ordinary NLL tie breaker.",
+  "outside_route": "All other rows and every non-pair probability remain unchanged."
+}

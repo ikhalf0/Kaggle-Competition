@@ -75,5 +75,79 @@
   "all_checkpoint_and_probability_files_accounted_for": true,
   "verification_scope": "Fresh file/ZIP-directory presence and size check. Checkpoints were not deserialized and no training or GPU inference was rerun. Earlier intake checks retain archive integrity and prediction provenance evidence.",
   "large_artifacts_committed": false,
-  "winning_submission_committed": true
+  "winning_submission_committed": true,
+  "later_private_inputs": [
+    {
+      "notebook": "07",
+      "filename": "07_effnet192_inputs.zip",
+      "bytes": 3677277,
+      "sha256": "f00beab773a52ae33211fa0904c5a6fe2e7cec9b098d06a2ce13d80e517d5ddb",
+      "manifest_filename": "07_effnet192_inputs_manifest.json",
+      "manifest_sha256": "12d4369226ddacaf9fd1cf6f34956a7755f1b0c9c51b0ef589eaeee2af418a3b",
+      "committed": false
+    },
+    {
+      "notebook": "08",
+      "filename": "08_cat_pair_inputs.zip",
+      "bytes": 3976805,
+      "sha256": "bb1d0cfaea7ee00ac7e5ba0c2f0800c79441cf442a6e43f2813ede328ba0c8c2",
+      "manifest_filename": "08_cat_pair_inputs_manifest.json",
+      "manifest_sha256": "570120d1b229b51a13abbfa837b50712d8b0f63d57301fa6398964ed07b5ca21",
+      "committed": false
+    },
+    {
+      "notebook": "09",
+      "filename": "09_resize_comparison_inputs.zip",
+      "bytes": 107071159,
+      "sha256": "a2644218873af1d68b8ce5911405350fc1f482e02eb176bbc8153066efa67909",
+      "manifest_filename": "09_resize_comparison_manifest.json",
+      "manifest_sha256": "ecfba4a0b35a2fa91909fb0282b477b5332645e0a96c3e8e59c2100626c4bf3c",
+      "committed": false
+    },
+    {
+      "notebook": "10",
+      "filename": "10_dinov2_inputs.zip",
+      "bytes": 5423215,
+      "sha256": "305e6626a5f52c4fd96a74ffef17332c39dd650f556a64a35e87cd746a6c42dc",
+      "manifest_filename": "10_dinov2_inputs_manifest.json",
+      "manifest_sha256": "3d6c24b37ed0c60c95ef1df4548e9b6d8dd513c4650454e6dc345fc2596269be",
+      "committed": false
+    }
+  ],
+  "later_private_backups": [
+    {
+      "notebook": "07",
+      "filename": "efficientnetv2s_192_validation_backup.zip",
+      "sha256": "d12a2cb162775594a960edafd4532aa8bb15390a5cb24ede1f565958fd043099",
+      "checkpoint_sha256": "94528da850d9c232a9b1690ae4e936b6040ab410706325b434de94a672fcf820",
+      "selected_epoch": 7,
+      "model": "tf_efficientnetv2_s.in21k_ft_in1k"
+    },
+    {
+      "notebook": "08",
+      "filename": "cat_mouth_nose_specialist_backup.zip",
+      "sha256": "120439c022a5e2c846971b050c66d49ec574bfd3be58fdeec90e69e03a3bcd4f",
+      "checkpoint_sha256": "1ecd2e71f3c7d25b0bd926e8c4fbd04d7c4f3b51e4c191e4fb0bdfb6f499aa2f",
+      "selected_epoch": 8,
+      "model": "convnextv2_tiny.fcmae_ft_in1k",
+      "output_classes": [
+        "CatMouth",
+        "CatNose"
+      ]
+    },
+    {
+      "notebook": "09",
+      "filename": "09_resize_comparison_backup.zip",
+      "sha256": "93fac6d1be128398aa6184c80639295b0a6b124c17f3e155aca1d1e9c1e4fa98",
+      "checkpoint_in_backup": false,
+      "source_eight_class_checkpoint_sha256": "b2162e667cc1cb304b4ea8b57816253ad67f8c825a1cd84d38050cfce7973e1c"
+    },
+    {
+      "notebook": "10",
+      "filename": null,
+      "received": false,
+      "status": "running_user_reported"
+    }
+  ],
+  "later_inputs_and_backups_committed": false
 }

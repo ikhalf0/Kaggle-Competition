@@ -1,0 +1,14 @@
+{
+  "config_sha256": "96d668d1812b39925e95ad04df71bc59faa4d5a08f63c120f63cff5b407a5879",
+  "checkpoint_sha256": "b2162e667cc1cb304b4ea8b57816253ad67f8c825a1cd84d38050cfce7973e1c",
+  "files": {
+    "original_stretch_ordinary.npz": "53981449dc2609ef2a8ae1bdd6b9254baaf69fcc7eab5e87fe380f5393c5ab44",
+    "original_stretch_tta.npz": "61daf8c724e8c8019f7c1fbb0369cf22e607a312f271c38807657abdde04da61",
+    "original_letterbox_ordinary.npz": "0307c4e75bcab2fdf5ad011c99d3a2f0e12cab81c7e1179d030c49cfb3a1e46a",
+    "original_letterbox_tta.npz": "b87b5ff97468b824783b0850824d8d0b1974a4c9343e9f01090d13b855b766da",
+    "legacy_wide_stretch_ordinary.npz": "47da4d414d06253710ac4a8919b018ea20fe0ee4eeb669dbcf3c940cc637450f",
+    "legacy_wide_letterbox_ordinary.npz": "9be59b3e4bd02af53f46c4aa8c77153773a4ae33e171baae9c414b3b7e3cec48",
+    "legacy_tall_stretch_ordinary.npz": "657e11eddebbc82615af1d77312fea91e18aee9b5aaf0a7b87c53faffae67461",
+    "legacy_tall_letterbox_ordinary.npz": "aec148ed0fac63d8064c67963784b58038493a6fb38d64079fcde25e93254d70"
+  }
+}
