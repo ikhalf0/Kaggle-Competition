@@ -2,8 +2,8 @@
   {
     "path": "notebooks/01-eda-facial-features.ipynb",
     "source_filename": "01-eda-facial-features.ipynb",
-    "sha256": "9c4d54530d392cdcc124238e45723115c38b94991b51d4f47c4f219a5d02ce53",
-    "git_blob_sha": "2514bbd456701f37ed2b00f6e772e75281ba9c3d",
+    "sha256": "082f729a89fdb33fa98cf716473e1d0fa980f69dbaa1b8c80e1e0a02dd62439a",
+    "git_blob_sha": "499199e66e63c2f9398942505c917b6b0d9b8e72",
     "code_cells": 9,
     "execution_counts": [
       1,
@@ -16,13 +16,16 @@
       8,
       9
     ],
-    "fatal_error_outputs": []
+    "fatal_error_outputs": [],
+    "previous_record_path": "docs/notebook_provenance_before_documentation.json",
+    "byte_identical_to_supplied_or_prepared_source": false,
+    "documentation_changes": "Headings, explanations and summaries updated. Saved results retained; no model rerun."
   },
   {
     "path": "notebooks/02a-convnext-128-training.ipynb",
     "source_filename": "02-preprocessing-and-training.ipynb",
-    "sha256": "7768420e04893589ba6cf7b9684b6c493c2bdd96a3cfc41420943bc453e08c7e",
-    "git_blob_sha": "f952596e2ea80cfa9a1b3ad08d5af105c38af993",
+    "sha256": "198ba9bbed526f51c0cd635e90dbe0e32b12a8053c706c79b2e71aa22303d3ed",
+    "git_blob_sha": "5e143a46b0d93cbf247fa69ee60a5b115d59f423",
     "code_cells": 10,
     "execution_counts": [
       1,
@@ -36,13 +39,16 @@
       12,
       13
     ],
-    "fatal_error_outputs": []
+    "fatal_error_outputs": [],
+    "previous_record_path": "docs/notebook_provenance_before_documentation.json",
+    "byte_identical_to_supplied_or_prepared_source": false,
+    "documentation_changes": "Headings, explanations and summaries updated. Saved results retained; no model rerun."
   },
   {
     "path": "notebooks/02b-convnext-224-training.ipynb",
     "source_filename": "Exp 2, 224px.ipynb",
-    "sha256": "15672f73d84ab4f74c94cd7f842b4bb5b4025bab26f3df27a35aac9672d93c6a",
-    "git_blob_sha": "9916fbe0a5727c634d342914ff34f64ec375d56d",
+    "sha256": "a9bf55c4360664995ea42f19d0805f3ef85ad17618d18565ca07ad0079daa37e",
+    "git_blob_sha": "50a22c9a5f39c9641cfe99c6c63bfcddb05143a8",
     "code_cells": 10,
     "execution_counts": [
       1,
@@ -56,13 +62,16 @@
       9,
       10
     ],
-    "fatal_error_outputs": []
+    "fatal_error_outputs": [],
+    "previous_record_path": "docs/notebook_provenance_before_documentation.json",
+    "byte_identical_to_supplied_or_prepared_source": false,
+    "documentation_changes": "Headings, explanations and summaries updated. Saved results retained; no model rerun."
   },
   {
     "path": "notebooks/02c-efficientnetv2s-128-training.ipynb",
     "source_filename": "02_effnetv2_s_128_training_2026-10-21.ipynb",
-    "sha256": "c46b56267c239473b3269e89d7e3ee372a14cec7ef1ad8dc77bf1c43b237287a",
-    "git_blob_sha": "508fd7b159f2bb38965c0f13811306c0d7cc9068",
+    "sha256": "c404fe0aa7c0d9fb2f2644732a8dc5e4ea3eb0b3e3f6a1a94dcf92bde876a620",
+    "git_blob_sha": "05e6f4acff410fef0c1c5b884b2e48be82b8cb5c",
     "code_cells": 10,
     "execution_counts": [
       1,
@@ -76,13 +85,16 @@
       9,
       10
     ],
-    "fatal_error_outputs": []
+    "fatal_error_outputs": [],
+    "previous_record_path": "docs/notebook_provenance_before_documentation.json",
+    "byte_identical_to_supplied_or_prepared_source": false,
+    "documentation_changes": "Headings, explanations and summaries updated. Saved results retained; no model rerun."
   },
   {
     "path": "notebooks/03-original-ensemble-tta.ipynb",
     "source_filename": "03_original_ensemble_tta_2026-10-21.ipynb",
-    "sha256": "24228e42c09d12fa361228c91d2d0c81b78aaa5f0d0e4800a6a1cc49494a72ba",
-    "git_blob_sha": "14dec5083d83d7c7c98312ca363a9571982ea46c",
+    "sha256": "bab90419aff4d21a453468f032b9df9dca9f84fd30234ea5faee2c598ac78891",
+    "git_blob_sha": "f82f67ce8e61fc66c0e80301646d0e90f0f4d5d5",
     "code_cells": 10,
     "execution_counts": [
       1,
@@ -96,13 +108,16 @@
       10,
       11
     ],
-    "fatal_error_outputs": []
+    "fatal_error_outputs": [],
+    "previous_record_path": "docs/notebook_provenance_before_documentation.json",
+    "byte_identical_to_supplied_or_prepared_source": false,
+    "documentation_changes": "Headings, explanations and summaries updated. Saved results retained; no model rerun."
   },
   {
     "path": "notebooks/04-controlled-improvement.ipynb",
     "source_filename": "04_controlled_improvement_2026-10-21.ipynb",
-    "sha256": "bdd74b61d061834c8c133c617372026b434cb53de1105d3d151b7abcba489d5d",
-    "git_blob_sha": "e46d8b2c7102ea3367c67da0dfcc30fa64077e84",
+    "sha256": "81fac0ae27176c3450ebeacb973c8df207dcc1c0649308d416c08c7fa820ced8",
+    "git_blob_sha": "8c89d44427acc95099851434f5178a1e8f1ce1d0",
     "code_cells": 11,
     "execution_counts": [
       1,
@@ -117,13 +132,16 @@
       11,
       12
     ],
-    "fatal_error_outputs": []
+    "fatal_error_outputs": [],
+    "previous_record_path": "docs/notebook_provenance_before_documentation.json",
+    "byte_identical_to_supplied_or_prepared_source": false,
+    "documentation_changes": "Headings, explanations and summaries updated. Saved results retained; no model rerun."
   },
   {
     "path": "notebooks/05-original-plus-geometry.ipynb",
     "source_filename": "05-original-plus-geometry.ipynb",
-    "sha256": "40de0137b7c002039c0e4d8223327ea69235987d89842fc187d6527ffef6f766",
-    "git_blob_sha": "a553f7995cf096fb6791fc96a9257860aaa0d707",
+    "sha256": "1797045f0d511bec3fd507aab0d96d503ac72ee08c3efc6071de0c1e9fe5274e",
+    "git_blob_sha": "1fee31ee34a2ff0cdea6377d75d2e57aaabcd63f",
     "code_cells": 5,
     "execution_counts": [
       1,
@@ -132,13 +150,16 @@
       4,
       5
     ],
-    "fatal_error_outputs": []
+    "fatal_error_outputs": [],
+    "previous_record_path": "docs/notebook_provenance_before_documentation.json",
+    "byte_identical_to_supplied_or_prepared_source": false,
+    "documentation_changes": "Headings, explanations and summaries updated. Saved results retained; no model rerun."
   },
   {
     "path": "notebooks/06-full-data-convnextv2.ipynb",
     "source_filename": "08_full_data_convnextv2_2026-10-21.ipynb",
-    "sha256": "cc3aba005f45726fd839e97df57a7f4d3e52335ea58a9ad83d5fb099856fdd1c",
-    "git_blob_sha": "03fdc31dddebfa13f5def7b060b50b9c11064d61",
+    "sha256": "311a59fb4377c8de939a78f0a0068e6ac7a65e3200fd363a6fc4e39078fe2103",
+    "git_blob_sha": "b21163387f0871df420bab7e09f4a51c8d342b39",
     "code_cells": 6,
     "execution_counts": [
       1,
@@ -151,7 +172,9 @@
     "fatal_error_outputs": [],
     "original_source_sha256": "00ea13ad05c49692849a35edf786cec3f886870938e34b5d4c88683cc8686c40",
     "original_source_git_blob_sha": "7bef9bcd1edf861bbe4139bb32e37dc04164c569",
-    "documentation_changes": "Renumbered notebook title and Markdown references from 08 to 06; all code cells, execution counts and saved outputs are unchanged."
+    "documentation_changes": "Headings, explanations and summaries updated. Saved results retained; no model rerun.",
+    "previous_record_path": "docs/notebook_provenance_before_documentation.json",
+    "byte_identical_to_supplied_or_prepared_source": false
   },
   {
     "path": "archive/03-two-model-ensemble-tta.ipynb",
@@ -170,8 +193,8 @@
   {
     "path": "notebooks/07-efficientnetv2s-192-validation.ipynb",
     "source_filename": "07-efficientnetv2s-192-validation.ipynb",
-    "sha256": "532d12648ef2e4ffac04c0c02286fd5b10ce8ca61d18d7ffe6c349ed4426bac0",
-    "git_blob_sha": "71a3ebf0f8b3f8c4710d0fc92e2026220e7d4838",
+    "sha256": "199491901f3160fbc71658c6be04000be2fe7f5d4120e0437da879d8a03b9f9f",
+    "git_blob_sha": "a33055e44c0c89f5dddbbbf3f41fa6bfac8e818b",
     "code_cells": 7,
     "execution_counts": [
       1,
@@ -180,39 +203,43 @@
       4,
       5,
       6,
-      7
+      null
     ],
     "fatal_error_outputs": [],
     "status": "completed",
-    "byte_identical_to_supplied_or_prepared_source": true,
-    "note": "Original code, metadata and saved outputs preserved."
+    "byte_identical_to_supplied_or_prepared_source": false,
+    "note": "Original code, metadata and saved outputs preserved.",
+    "previous_record_path": "docs/notebook_provenance_before_documentation.json",
+    "documentation_changes": "Headings, explanations and summaries updated. Saved results retained; no model rerun."
   },
   {
     "path": "notebooks/08-cat-mouth-nose-specialist.ipynb",
     "source_filename": "08-cat-mouth-nose-specialist (1).ipynb",
-    "sha256": "cb48ecb4eba3eff430fc4096a6cf52379efc21d790382721b47b148384622b1e",
-    "git_blob_sha": "d25852db9baf51d924ede7a648be51f59af15f19",
+    "sha256": "a4741dec12ce77aa8e52a7d2243909efe57caff439e11b0cdf60f62b18e4bb03",
+    "git_blob_sha": "8fb95b43c6735ad7746fb7297c3de384146242cf",
     "code_cells": 8,
     "execution_counts": [
-      5,
+      null,
       6,
       8,
       9,
       10,
       11,
       12,
-      13
+      null
     ],
     "fatal_error_outputs": [],
     "status": "completed",
-    "byte_identical_to_supplied_or_prepared_source": true,
-    "note": "Original code, metadata and saved outputs preserved."
+    "byte_identical_to_supplied_or_prepared_source": false,
+    "note": "Original code, metadata and saved outputs preserved.",
+    "previous_record_path": "docs/notebook_provenance_before_documentation.json",
+    "documentation_changes": "Headings, explanations and summaries updated. Saved results retained; no model rerun."
   },
   {
     "path": "notebooks/09-resize-comparison.ipynb",
     "source_filename": "09-resize-comparsion.ipynb",
-    "sha256": "69c718c4df84973a6ccea1b2090ddc82b9f6be596b562343512ffad1276af377",
-    "git_blob_sha": "2b791163da04b1bdc7b8db0da0c1dc0817114fc9",
+    "sha256": "9b15205f707aa7d448003cf2ba20f604e33b91645999b1fc9c09f55db700c835",
+    "git_blob_sha": "822049e0c40bcfc13c3132fb1bd9454de0f1e4b0",
     "code_cells": 6,
     "execution_counts": [
       1,
@@ -224,14 +251,16 @@
     ],
     "fatal_error_outputs": [],
     "status": "completed",
-    "byte_identical_to_supplied_or_prepared_source": true,
-    "note": "Original code, metadata and saved outputs preserved."
+    "byte_identical_to_supplied_or_prepared_source": false,
+    "note": "Original code, metadata and saved outputs preserved.",
+    "previous_record_path": "docs/notebook_provenance_before_documentation.json",
+    "documentation_changes": "Headings, explanations and summaries updated. Saved results retained; no model rerun."
   },
   {
     "path": "notebooks/10-dinov2-base224-validation.ipynb",
     "source_filename": "10-dinov2-base224-validation (1).ipynb",
-    "sha256": "dbed8e8479430adc0042ce12a97a44d502eae1181e30286464dd7d80b22d1aeb",
-    "git_blob_sha": "fbcf798570a7ccef3ea8e243adb54cca3e867cc2",
+    "sha256": "5e25f3e73b146d75949d8823fa0dd38e9e748719b9c50c9e68a90a7c06972534",
+    "git_blob_sha": "991398d3e45762e96de7bd336ccd8d87af7a3801",
     "code_cells": 7,
     "execution_counts": [
       1,
@@ -244,16 +273,19 @@
     ],
     "fatal_error_outputs": [],
     "status": "completed",
-    "byte_identical_to_supplied_or_prepared_source": true,
+    "byte_identical_to_supplied_or_prepared_source": false,
     "note": "Unchanged executed notebook supplied by the user. All seven code cells executed; source matches the preserved prepared notebook.",
     "prepared_source_path": "archive/10-dinov2-base224-prepared.ipynb",
-    "prepared_source_sha256": "98efcddd4d3551ecdaed05cdf75b6c803c2ffcd4c3c2638464c1a87b144f0670"
+    "prepared_source_sha256": "66b81d73ccb84c387354d2fc5181cd05fdb32a5258c515ccf2e52457786ee3ea",
+    "previous_record_path": "docs/notebook_provenance_before_documentation.json",
+    "documentation_changes": "Headings, explanations and summaries updated. Saved results retained; no model rerun.",
+    "original_prepared_source_sha256": "98efcddd4d3551ecdaed05cdf75b6c803c2ffcd4c3c2638464c1a87b144f0670"
   },
   {
     "path": "archive/10-dinov2-base224-prepared.ipynb",
     "source_filename": "10-dinov2-base224-validation.ipynb",
-    "sha256": "98efcddd4d3551ecdaed05cdf75b6c803c2ffcd4c3c2638464c1a87b144f0670",
-    "git_blob_sha": "765059cec15ba98c8c9aabf7567dec1e1ed73eda",
+    "sha256": "66b81d73ccb84c387354d2fc5181cd05fdb32a5258c515ccf2e52457786ee3ea",
+    "git_blob_sha": "c3e4eaaa424c1a9684c1ff471229634c53746a1f",
     "code_cells": 7,
     "execution_counts": [
       null,
@@ -266,7 +298,9 @@
     ],
     "fatal_error_outputs": [],
     "status": "prepared_historical",
-    "byte_identical_to_supplied_or_prepared_source": true,
-    "note": "Original source preserved before returned Kaggle execution; empty outputs are intentional."
+    "byte_identical_to_supplied_or_prepared_source": false,
+    "note": "Original source preserved before returned Kaggle execution; empty outputs are intentional.",
+    "previous_record_path": "docs/notebook_provenance_before_documentation.json",
+    "documentation_changes": "Headings, explanations and summaries updated. Saved results retained; no model rerun."
   }
 ]
