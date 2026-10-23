@@ -1,0 +1,24 @@
+{
+  "config_sha256": "f98a80ac789d47c1d78e3430175a30c9f1683e51513110b77338e58426fc281b",
+  "checkpoint_sha256": "f1f72e5ad0ba57b53f9c60fcee83eddbb313bd7606c6da51da9684b89e963a36",
+  "files": {
+    "val_tta.npz": "cd1df53407f17f3123b445708733e06c20e70b5a6f6f3e8c88942bfefe9d08bd",
+    "test_clean.npz": "3c6776c478e1d880d86a43e6cd65f8b499b4e91835a14b3b6ce4d1e45a36d841",
+    "val_wide_clean.npz": "e667fac5cb9cc8a74b5bcb5397634283deeb9a2cc3f35cde7d645e0abbf318ef",
+    "val_tall_clean.npz": "7e31886de5ca283e4749af19f324d89323d4eb0ee8394795280f7cda19102046",
+    "test_tta.npz": "aa17f095a710eeb9033b790ee1acd98a4f6725da2da2393511fdfb003d256d94",
+    "val_clean.npz": "94f1a89cd472badde1e9d64a23308d44f3ded31e12e178992712ce65d835d829"
+  },
+  "classes": [
+    "CatEye",
+    "CatFace",
+    "CatMouth",
+    "CatNose",
+    "DogEye",
+    "DogFace",
+    "DogMouth",
+    "DogNose"
+  ],
+  "validation_images": 9547,
+  "test_images": 29443
+}

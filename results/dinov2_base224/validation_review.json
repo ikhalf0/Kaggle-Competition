@@ -1,0 +1,19 @@
+{
+  "config_sha256": "f98a80ac789d47c1d78e3430175a30c9f1683e51513110b77338e58426fc281b",
+  "checkpoint_sha256": "f1f72e5ad0ba57b53f9c60fcee83eddbb313bd7606c6da51da9684b89e963a36",
+  "primary": {
+    "view": "tta",
+    "candidate": "fixed_25pct_blend",
+    "group": "all_validation",
+    "images": 9547,
+    "errors": 18,
+    "accuracy": 0.9981145909709856,
+    "nll": 0.09761531422431842,
+    "fixed": 5,
+    "broken": 0,
+    "changed": 5
+  },
+  "primary_weight": 0.25,
+  "exact_winning_ensemble_independent_validation": null,
+  "public_score": null
+}

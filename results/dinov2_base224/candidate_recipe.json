@@ -1,0 +1,17 @@
+{
+  "candidate": "submission_best75_dinov2b224tta25.csv",
+  "submitted": false,
+  "public_score": null,
+  "source_best_public_score": 0.9806,
+  "weights": {
+    "best_09806": 0.75,
+    "dinov2_base224_tta": 0.25
+  },
+  "new_model_config_sha256": "f98a80ac789d47c1d78e3430175a30c9f1683e51513110b77338e58426fc281b",
+  "new_model_checkpoint_sha256": "f1f72e5ad0ba57b53f9c60fcee83eddbb313bd7606c6da51da9684b89e963a36",
+  "source_best_submission_sha256": "8d255cfb971b031801ac95e8600fdada6eb0d51190b993e472b305d148639d23",
+  "source_best_probability_sha256": "48bc36222ad383f69122fc5890c49d5f646081117dc6bd3b711ac33205dfed11",
+  "candidate_sha256": "03c736b816cc3e87733602c2c374aeaf2b0c2be4fdcc00f06e8bf1d359c85fef",
+  "changed_test_labels_from_best": 134,
+  "independent_exact_blend_validation": null
+}

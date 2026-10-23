@@ -1,0 +1,228 @@
+{
+  "review": {
+    "filename": "10_dinov2_review_backup.zip",
+    "sha256": "569a38e745e4c65c14bf759e3eacf61369566e01b90f7d2ee590b468b083bdc7",
+    "bytes": 322477932,
+    "all_member_crc_checks_passed": true,
+    "members": {
+      "candidate_recipe.json": {
+        "bytes": 799,
+        "sha256": "77f3f500af55e83232d21daf00767a8f604d346be41c5668dedc9c2095dc4c12",
+        "crc": 583371501
+      },
+      "changed_validation_predictions.csv": {
+        "bytes": 415,
+        "sha256": "7a1c8e0ee465c5a46c541cdbeed24e1bc27f37851a5386a9247ab29fbf96c616",
+        "crc": 3699844176
+      },
+      "complete_run.json": {
+        "bytes": 384,
+        "sha256": "152a9ce191ab5d905ac56fa388c3d1899af86c00f506fe0b3193e50174f55dc2",
+        "crc": 3793449091
+      },
+      "dinov2_base224_lpft_val1337_seed42/best.pth": {
+        "bytes": 342979733,
+        "sha256": "f1f72e5ad0ba57b53f9c60fcee83eddbb313bd7606c6da51da9684b89e963a36",
+        "crc": 2877369690
+      },
+      "dinov2_base224_lpft_val1337_seed42/classification_report_blend25_clean.txt": {
+        "bytes": 650,
+        "sha256": "7cd11a1fb6c05e259fd2f2b748c5afc477f835abd338f923e8843c43666dc4a7",
+        "crc": 2273622998
+      },
+      "dinov2_base224_lpft_val1337_seed42/classification_report_blend25_tta.txt": {
+        "bytes": 650,
+        "sha256": "7cd11a1fb6c05e259fd2f2b748c5afc477f835abd338f923e8843c43666dc4a7",
+        "crc": 2273622998
+      },
+      "dinov2_base224_lpft_val1337_seed42/classification_report_dinov2_clean.txt": {
+        "bytes": 650,
+        "sha256": "f8c530e72e3906101786cf6c3a28c21064436273ab7b571a4895fa04f7da9687",
+        "crc": 2803017696
+      },
+      "dinov2_base224_lpft_val1337_seed42/classification_report_dinov2_tta.txt": {
+        "bytes": 650,
+        "sha256": "716e5aac2441038bd463e3a85272a21565ddea93d6c34a76e67d411111cc543f",
+        "crc": 871093799
+      },
+      "dinov2_base224_lpft_val1337_seed42/config.json": {
+        "bytes": 2255,
+        "sha256": "e2962029ed1d461548b2fd1fb9c9f8169bd08d77fc6ee277ae660c256709549b",
+        "crc": 2987103538
+      },
+      "dinov2_base224_lpft_val1337_seed42/confusion_matrix_blend25_clean.csv": {
+        "bytes": 278,
+        "sha256": "6c96daa1d1db91b0553a6413b43ba4bf114393e66410f9126b255bf56ef35c42",
+        "crc": 1220166927
+      },
+      "dinov2_base224_lpft_val1337_seed42/confusion_matrix_blend25_tta.csv": {
+        "bytes": 278,
+        "sha256": "6c96daa1d1db91b0553a6413b43ba4bf114393e66410f9126b255bf56ef35c42",
+        "crc": 1220166927
+      },
+      "dinov2_base224_lpft_val1337_seed42/confusion_matrix_dinov2_clean.csv": {
+        "bytes": 279,
+        "sha256": "57de29c03848e2bb524caa6bb9fe93a8a07d14ec4d3d9ddf9a70df96cca38ca8",
+        "crc": 1031069327
+      },
+      "dinov2_base224_lpft_val1337_seed42/confusion_matrix_dinov2_tta.csv": {
+        "bytes": 279,
+        "sha256": "08311bc844a2d5a658db3beb1e0243944c71070a4b3aa80fcb94644df3947e14",
+        "crc": 2364350877
+      },
+      "dinov2_base224_lpft_val1337_seed42/epoch_status.json": {
+        "bytes": 173,
+        "sha256": "be843d7fa6dbc717cbf4bde87bb0a3b756627009546f4bd8659db85dbbaad9e0",
+        "crc": 1472442274
+      },
+      "dinov2_base224_lpft_val1337_seed42/history.csv": {
+        "bytes": 908,
+        "sha256": "3b9a3f9492a88285971fe71bd0947b99a9d1de7f95cbce9cc60967ac396ccacf",
+        "crc": 78165856
+      },
+      "dinov2_base224_lpft_val1337_seed42/learning_curves.png": {
+        "bytes": 58452,
+        "sha256": "6f880786daa75e4da8f9f6c84ba4eac2fae02ae27ea01be2e2f61c32abc841de",
+        "crc": 900011284
+      },
+      "dinov2_base224_lpft_val1337_seed42/prediction_manifest.json": {
+        "bytes": 932,
+        "sha256": "cd976cf0e1d4c39ea3d212680fc2d6c1363a93b33658c05a66a1194c70b43d5e",
+        "crc": 2950289684
+      },
+      "dinov2_base224_lpft_val1337_seed42/test_clean.npz": {
+        "bytes": 832579,
+        "sha256": "3c6776c478e1d880d86a43e6cd65f8b499b4e91835a14b3b6ce4d1e45a36d841",
+        "crc": 2547369078
+      },
+      "dinov2_base224_lpft_val1337_seed42/test_tta.npz": {
+        "bytes": 832375,
+        "sha256": "aa17f095a710eeb9033b790ee1acd98a4f6725da2da2393511fdfb003d256d94",
+        "crc": 3692577763
+      },
+      "dinov2_base224_lpft_val1337_seed42/training_complete.json": {
+        "bytes": 307,
+        "sha256": "57f132c434bff4ae96233a2cdb220be4a4ff218c90404cfd73f1106a59dd12da",
+        "crc": 2068171577
+      },
+      "dinov2_base224_lpft_val1337_seed42/val_clean.npz": {
+        "bytes": 289369,
+        "sha256": "94f1a89cd472badde1e9d64a23308d44f3ded31e12e178992712ce65d835d829",
+        "crc": 671699545
+      },
+      "dinov2_base224_lpft_val1337_seed42/val_tall_clean.npz": {
+        "bytes": 290591,
+        "sha256": "7e31886de5ca283e4749af19f324d89323d4eb0ee8394795280f7cda19102046",
+        "crc": 3402383521
+      },
+      "dinov2_base224_lpft_val1337_seed42/val_tta.npz": {
+        "bytes": 289397,
+        "sha256": "cd1df53407f17f3123b445708733e06c20e70b5a6f6f3e8c88942bfefe9d08bd",
+        "crc": 3286676188
+      },
+      "dinov2_base224_lpft_val1337_seed42/val_wide_clean.npz": {
+        "bytes": 290363,
+        "sha256": "e667fac5cb9cc8a74b5bcb5397634283deeb9a2cc3f35cde7d645e0abbf318ef",
+        "crc": 2235913799
+      },
+      "input_pack_manifest.json": {
+        "bytes": 3766,
+        "sha256": "3d6c24b37ed0c60c95ef1df4548e9b6d8dd513c4650454e6dc345fc2596269be",
+        "crc": 2093251826
+      },
+      "original_validation_comparison.csv": {
+        "bytes": 2185,
+        "sha256": "214007aae193262a865b2f20dfcd19d4d1d0bbecf15110b4f14f8f5e3d8a5cc7",
+        "crc": 2801527060
+      },
+      "secondary_stress_comparison.csv": {
+        "bytes": 257,
+        "sha256": "4a4304dfa16a00fed0d2bbb41453bbf6be397adb394cea826440b7ed639c3bd6",
+        "crc": 1262665425
+      },
+      "speed_check.json": {
+        "bytes": 432,
+        "sha256": "45c925d4b0597f907e48311c714580f27480419973fb7aae87b3bc11e21ef289",
+        "crc": 981240481
+      },
+      "submission_best75_dinov2b224tta25.csv": {
+        "bytes": 395263,
+        "sha256": "03c736b816cc3e87733602c2c374aeaf2b0c2be4fdcc00f06e8bf1d359c85fef",
+        "crc": 4118168342
+      },
+      "train_split_1337.csv": {
+        "bytes": 737155,
+        "sha256": "bf327a02fe46738694ff024b51065c1b9aa253ee87b280cbfc290e47e54ff13c",
+        "crc": 2011648024
+      },
+      "val_split_1337.csv": {
+        "bytes": 130078,
+        "sha256": "fd74e81fb552e487b2e399dc875e20099d26ad71a8666e627adfa1244ef78b87",
+        "crc": 166753998
+      },
+      "validation_review.json": {
+        "bytes": 552,
+        "sha256": "bebf8579789bf5e079f5477593ebb70e2f9a4527a6f072536fde90c43f81b275",
+        "crc": 2104707506
+      }
+    }
+  },
+  "recovery": {
+    "filename": "10_dinov2_recovery_backup.zip",
+    "sha256": "9c1390a5c6a6c39354e6402ff63d197fedeacd69ebe4a7889e54d600e5df556f",
+    "bytes": 1270853885,
+    "all_member_crc_checks_passed": true,
+    "members": {
+      "dinov2_base224_lpft_val1337_seed42/best.pth": {
+        "bytes": 342979733,
+        "sha256": "f1f72e5ad0ba57b53f9c60fcee83eddbb313bd7606c6da51da9684b89e963a36",
+        "crc": 2877369690
+      },
+      "dinov2_base224_lpft_val1337_seed42/config.json": {
+        "bytes": 2255,
+        "sha256": "e2962029ed1d461548b2fd1fb9c9f8169bd08d77fc6ee277ae660c256709549b",
+        "crc": 2987103538
+      },
+      "dinov2_base224_lpft_val1337_seed42/epoch_status.json": {
+        "bytes": 173,
+        "sha256": "be843d7fa6dbc717cbf4bde87bb0a3b756627009546f4bd8659db85dbbaad9e0",
+        "crc": 1472442274
+      },
+      "dinov2_base224_lpft_val1337_seed42/history.csv": {
+        "bytes": 908,
+        "sha256": "3b9a3f9492a88285971fe71bd0947b99a9d1de7f95cbce9cc60967ac396ccacf",
+        "crc": 78165856
+      },
+      "dinov2_base224_lpft_val1337_seed42/last.pth": {
+        "bytes": 1028996674,
+        "sha256": "f8d78590ac2e1987911ee71c2bb8c7210720453298c569f1c7d69cc239dc1107",
+        "crc": 3951583895
+      },
+      "dinov2_base224_lpft_val1337_seed42/training_complete.json": {
+        "bytes": 307,
+        "sha256": "57f132c434bff4ae96233a2cdb220be4a4ff218c90404cfd73f1106a59dd12da",
+        "crc": 2068171577
+      },
+      "input_pack_manifest.json": {
+        "bytes": 3766,
+        "sha256": "3d6c24b37ed0c60c95ef1df4548e9b6d8dd513c4650454e6dc345fc2596269be",
+        "crc": 2093251826
+      },
+      "speed_check.json": {
+        "bytes": 432,
+        "sha256": "45c925d4b0597f907e48311c714580f27480419973fb7aae87b3bc11e21ef289",
+        "crc": 981240481
+      },
+      "train_split_1337.csv": {
+        "bytes": 737155,
+        "sha256": "bf327a02fe46738694ff024b51065c1b9aa253ee87b280cbfc290e47e54ff13c",
+        "crc": 2011648024
+      },
+      "val_split_1337.csv": {
+        "bytes": 130078,
+        "sha256": "fd74e81fb552e487b2e399dc875e20099d26ad71a8666e627adfa1244ef78b87",
+        "crc": 166753998
+      }
+    }
+  }
+}

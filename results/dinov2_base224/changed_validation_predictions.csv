@@ -1,0 +1,11 @@
+view,image_id,true_class,reference_class,candidate_class
+clean,60519,CatFace,CatMouth,CatFace
+clean,48893,CatMouth,CatNose,CatMouth
+clean,25320,CatMouth,CatNose,CatMouth
+clean,23342,CatNose,DogNose,CatNose
+clean,14777,DogNose,DogEye,DogNose
+tta,60519,CatFace,CatMouth,CatFace
+tta,48893,CatMouth,CatNose,CatMouth
+tta,25320,CatMouth,CatNose,CatMouth
+tta,23342,CatNose,DogNose,CatNose
+tta,14777,DogNose,DogEye,DogNose

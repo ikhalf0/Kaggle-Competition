@@ -144,10 +144,72 @@
     },
     {
       "notebook": "10",
-      "filename": null,
-      "received": false,
-      "status": "running_user_reported"
+      "role": "review",
+      "filename": "10_dinov2_review_backup.zip",
+      "sha256": "569a38e745e4c65c14bf759e3eacf61369566e01b90f7d2ee590b468b083bdc7",
+      "bytes": 322477932,
+      "all_member_crc_checks_passed": true,
+      "received": true,
+      "status": "completed",
+      "checkpoint_sha256": "f1f72e5ad0ba57b53f9c60fcee83eddbb313bd7606c6da51da9684b89e963a36",
+      "config_sha256": "f98a80ac789d47c1d78e3430175a30c9f1683e51513110b77338e58426fc281b",
+      "selected_epoch": 8,
+      "model": "vit_base_patch14_dinov2.lvd142m",
+      "output_classes": [
+        "CatEye",
+        "CatFace",
+        "CatMouth",
+        "CatNose",
+        "DogEye",
+        "DogFace",
+        "DogMouth",
+        "DogNose"
+      ]
+    },
+    {
+      "notebook": "10",
+      "role": "recovery",
+      "filename": "10_dinov2_recovery_backup.zip",
+      "sha256": "9c1390a5c6a6c39354e6402ff63d197fedeacd69ebe4a7889e54d600e5df556f",
+      "bytes": 1270853885,
+      "all_member_crc_checks_passed": true,
+      "received": true,
+      "status": "completed",
+      "checkpoint_sha256": "f1f72e5ad0ba57b53f9c60fcee83eddbb313bd7606c6da51da9684b89e963a36",
+      "config_sha256": "f98a80ac789d47c1d78e3430175a30c9f1683e51513110b77338e58426fc281b",
+      "selected_epoch": 8,
+      "model": "vit_base_patch14_dinov2.lvd142m",
+      "output_classes": [
+        "CatEye",
+        "CatFace",
+        "CatMouth",
+        "CatNose",
+        "DogEye",
+        "DogFace",
+        "DogMouth",
+        "DogNose"
+      ]
     }
   ],
-  "later_inputs_and_backups_committed": false
+  "later_inputs_and_backups_committed": false,
+  "later_dinov2_probabilities": {
+    "private_run_directory": "dinov2_base224_lpft_val1337_seed42",
+    "prediction_manifest": "results/dinov2_base224/prediction_manifest.json",
+    "views": [
+      "clean",
+      "tta"
+    ],
+    "prefixes": [
+      "val",
+      "test",
+      "wide",
+      "tall"
+    ],
+    "source_archives": [
+      "10_dinov2_review_backup.zip",
+      "10_dinov2_recovery_backup.zip"
+    ],
+    "committed": false,
+    "note": "The manifest lists six probability arrays; wide and tall each have only ordinary inference."
+  }
 }
